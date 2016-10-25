@@ -1,0 +1,42 @@
+#topbar{
+  height: 5vh;
+  #top-nav{
+    .nav-links{
+      .tabs{
+        width: 100%;
+        display: flex;
+        font-size: 1.2em;
+        a{
+          display: inline-block;
+          width:  calc(25%);
+          &.active,
+          &:hover{
+            .tab{
+              border-radius: 4px 4px 0px 1px;
+              border: solid;
+              border-left-width: 3px;
+              border-right-width: 1px;
+              border-top-width: 1px;
+              border-bottom: 0px;
+              transition: .2s all ease-out;
+            }
+          }
+          .tab{
+            height: 4vh;
+            margin-top: 1vh;
+            text-align: center;
+            line-height: 4vh;
+            text-decoration: none;
+            border-style: solid;
+            border-right-width: 1px;
+            border-left-width: 0px;
+            border-bottom-width: 1px;
+            border-top-width: 0px;
+            transition: .3s all ease-in;
+
+          }
+        }
+      }
+    }
+  }
+}

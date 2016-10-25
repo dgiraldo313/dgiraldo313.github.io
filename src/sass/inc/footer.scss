@@ -1,0 +1,37 @@
+#footer{
+  position: relative;
+  clear: both;
+  border-top: 1px solid;
+  height: 7vh;
+  .left-side,
+  .right-side{
+    display: inline-block;
+    width: calc(50% - 2px);
+    line-height: 7vh;
+  }
+  .left-side{
+    float: left;
+    padding-left: 15px;
+  }
+  .right-side{
+    float: right;
+    padding-right: 15px;
+    div{
+      float: right;
+    }
+    .copy-right{
+      font-size: .9em;
+      font-weight: lighter;
+      opacity: .5;
+      i{
+        font-size: 1.3em;
+      }
+      p{
+        display: inline-block;
+        margin: 0px;
+      }
+    }
+  }
+
+
+}

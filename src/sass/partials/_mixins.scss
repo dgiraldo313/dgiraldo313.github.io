@@ -1,0 +1,26 @@
+/**********************
+Media Queries
+***********************/
+
+$break-small: 420px;
+$break-medium: 720px;
+$break-large: 1024px;
+
+@mixin media-query($media) {
+  @if $media == phone {
+    @media only screen and (max-width: $break-small) { @content; }
+  }
+  // include both phone and tablet
+  @if $media == phone-tablet {
+    @media only screen and (max-width: $break-medium) { @content; }
+  }
+  @else if $media == tablet {
+    @media only screen and (min-width: $break-small + 1) and (max-width: $break-medium - 1) { @content; }
+  }
+  @else if $media == medium-screen {
+    @media only screen and (min-width: $break-medium +1) and (max-width: $break-large - 1) { @content; }
+  }
+  @else if $media == wide-screen {
+    @media only screen and (min-width: $break-large) { @content; }
+  }
+}

@@ -1,0 +1,95 @@
+#app{
+  &.dark{
+    background: $dark-background;
+    border-color: $dark-box-border;
+    #sidebar{
+      color: $dark-sidebar-text-color;
+      a{
+        color: $dark-sidebar-text-color
+      }
+      .nav-links{
+        .tree-level{
+          &:hover{
+            background-color: $dark-sidebar-highlight;
+            color: $dark-sidebar-text-color_active;
+            a{
+              color: $dark-sidebar-text-color_active
+            }
+          }
+        }
+        .files{
+          .active{
+            color: $dark-main-color-1-light;
+            div{
+              background-color: $dark-sidebar-highlight;
+            }
+            a{
+              color: $dark-sidebar-text-color_active;
+            }
+          }
+        }
+      }
+      .email-container{
+        .email-widget{
+          i,p{
+            color: $dark-main-color-3-dark;
+          }
+          &:hover{
+            i{
+              color: $dark-main-color-2;
+            }
+            p{
+              color: $dark-main-color-3;
+            }
+          }
+        }
+      }
+    }
+    #topbar{
+      color: $dark-topbar-text-color;
+      #top-nav{
+        .nav-links{
+          .tabs{
+            a.active,
+            a:hover{
+              .tab{// box shadow
+                -webkit-box-shadow: inset 1px 1px 1px 0px rgba(255, 255, 255, .1);
+                -moz-box-shadow: inset 1px 1px 1px 0px rgba(255, 255, 255, .1);
+                box-shadow: inset 1px 1px 1px 0px rgba(255, 255, 255, .1);
+                // border gradient
+                border-image: none;
+                background-color: $dark-topbar-highlight;
+                border-left-color: $dark-topbar-highlight_border;
+                border-top-color: $dark-box-border;
+                color: $dark-topbar-text-color_active;
+              }
+            }
+            .tab{
+              border-color: $dark-box-border;
+              color: $dark-topbar-text-color;
+
+            }
+          }
+        }
+      }
+    }
+    #main{
+      background-color: $dark-main-content-background;
+    }
+    #footer{
+      .left-side{
+
+      }
+      .right-side{
+        .copy-right{
+          i{
+            color: $dark-main-color-1-light;
+          }
+          p{
+            color: $dark-main-color-2-light;
+          }
+        }
+      }
+    }
+  }
+}

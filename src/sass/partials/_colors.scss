@@ -1,0 +1,38 @@
+/***********************
+   Dark theme colors
+************************/
+//background color (includes sidebar, topbar and footer)
+$dark-background: #21252B;
+//main content background color
+$dark-main-content-background: #282c34;
+//boxes border color
+$dark-box-border: darken($dark-background, 50%);
+
+/********* Sidebar ***************/
+//text color (sidebar)
+$dark-sidebar-text-color: #9DA5B4;
+// color text on active
+$dark-sidebar-text-color_active: #D7DAE0;
+// sidebar highligth
+$dark-sidebar-highlight: #31363F;
+/********* Topbar ***************/
+$dark-topbar-text-color: #686F7B;
+// color text on active
+$dark-topbar-text-color_active: #D7DAE0;
+// sidebar highligth
+$dark-topbar-highlight: $dark-main-content-background;
+$dark-topbar-highlight_border: #00a9ea;
+/********* Main Content ***************/
+//color 1
+$dark-main-color-1: #d17c49;//#D86A2F; //#ff7260;
+// color 1 light
+$dark-main-color-1-light: lighten($dark-main-color-1, 5%);
+$dark-main-color-1-dark: darken($dark-main-color-1, 5%);
+//color 2
+$dark-main-color-2: #5bafef;//#1d91e9;//#00a9ea;
+$dark-main-color-2-light: lighten($dark-main-color-2, 5%);
+$dark-main-color-2-dark: darken($dark-main-color-2, 5%);
+//color 3
+$dark-main-color-3: #d7dae0;
+$dark-main-color-3-light: lighten($dark-main-color-3, 5%);
+$dark-main-color-3-dark: darken($dark-main-color-3, 10%);
