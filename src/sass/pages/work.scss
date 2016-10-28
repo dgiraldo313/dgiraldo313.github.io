@@ -1,0 +1,52 @@
+.work-container{
+  .content{
+    .header{
+      i{
+
+      }
+    }
+    .body{
+      .projects-container{
+
+
+      }
+      .projects{
+        margin-left: 10px;
+        .project{
+          margin-bottom: 5em;
+          .meta-container{
+            position: relative;
+            display: block;
+            overflow: hidden;
+            .title,
+            .links{
+              display: inline-block;
+              width: 50%;
+            }
+            .title{
+              float: left;
+              font-size: 1.5em;
+              font-weight: 700;
+
+            }
+            .links{
+              float: right;
+              text-align: right;
+              a{
+                margin-left: 5px;
+                margin-right: 5px;
+                i{
+                  font-size: 1.5em;
+                }
+              }
+
+            }
+          }
+          .description{
+            display: block;
+          }
+        }
+      }
+    }
+  }
+}

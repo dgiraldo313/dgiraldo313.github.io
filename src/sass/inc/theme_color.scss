@@ -5,7 +5,7 @@
     #sidebar{
       color: $dark-sidebar-text-color;
       a{
-        color: $dark-sidebar-text-color
+        color: $dark-sidebar-text-color;
       }
       .nav-links{
         .tree-level{
@@ -32,7 +32,7 @@
       .email-container{
         .email-widget{
           i,p{
-            color: $dark-main-color-3-dark;
+            color: $dark-sidebar-text-color;
           }
           &:hover{
             i{
@@ -53,9 +53,10 @@
             a.active,
             a:hover{
               .tab{// box shadow
-                -webkit-box-shadow: inset 1px 1px 1px 0px rgba(255, 255, 255, .1);
-                -moz-box-shadow: inset 1px 1px 1px 0px rgba(255, 255, 255, .1);
-                box-shadow: inset 1px 1px 1px 0px rgba(255, 255, 255, .1);
+                // -webkit-box-shadow: inset 1px 1px 1px 0px rgba(255, 255, 255, .1);
+                // -moz-box-shadow: inset 1px 1px 1px 0px rgba(255, 255, 255, .1);
+                // box-shadow: inset 1px 1px 1px 0px rgba(255, 255, 255, .1);
+                @include prefix(box-shadow , inset 1px 1px 1px 0px rgba(255, 255, 255, .1));
                 // border gradient
                 border-image: none;
                 background-color: $dark-topbar-highlight;
@@ -75,6 +76,53 @@
     }
     #main{
       background-color: $dark-main-content-background;
+      color: #f8f0e3;//#f8f9e9;
+      border-color: $dark-box-border;
+      h1{
+        color: $dark-main-color-1;
+        @include prefix(text-shadow , .5px .4px lighten($dark-main-color-1-light, 5%));
+        // text-shadow: .5px .4px lighten($dark-main-color-1-light, 5%);
+      }
+      .content{
+        .header{
+          i{
+            color: $dark-main-color-2-light;
+          }
+        }
+      }
+      .home-container{
+
+      }
+      .about-container{
+        .header{
+          .fun-facts{
+
+            opacity: .8;
+            .title{
+              color: $dark-main-color-2-light;
+              text-decoration: underline;
+              padding-right: 5px;
+            }
+            .dynamic-content{
+              color: $dark-main-color-3-light;
+            }
+          }
+        }
+      }
+      .work-container{
+        .body{
+          .projects{
+            .project{
+              .meta-container{
+                .title{
+                  color: lighten($dark-main-color-1-light, 10%);
+                }
+              }
+            }
+          }
+
+        }
+      }
     }
     #footer{
       .left-side{
@@ -88,6 +136,14 @@
           p{
             color: $dark-main-color-2-light;
           }
+        }
+      }
+    }
+    #skills{
+      .skills-container{
+        span{
+          color: $dark-main-content-background;
+          @include prefix(box-shadow, (inset 0px .5px 2px 0px rgba(255,255,255,.3), inset 0px -.5px 2px 0px rgba(255,255,255,.3)));
         }
       }
     }

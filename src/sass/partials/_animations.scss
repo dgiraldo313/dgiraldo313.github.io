@@ -1,0 +1,58 @@
+// animation for left side of panel
+// will open up when page loads
+
+@include keyframes(open-panel-left){
+  from {
+    width: 0%;
+  }
+  to {
+    width: 20%;
+  }
+}
+
+@include keyframes(open-panel-right){
+  from {
+    width: 100%;
+  }
+  to {
+    width: 80%;
+  }
+}
+
+
+// animation to slide in sidebar nav list
+
+@include keyframes(slide-in-left){
+    0%   {left: -400px;}
+    25%  {left: -300px;}
+    50%  {left: -100px;}
+    75%  {left: -50px;}
+    100% {left: 0px;}
+}
+// open nav menu down
+@include keyframes(open-menu){
+  from {
+    height: 0px;
+  }
+  to {
+    height: 120px;
+  }
+}
+
+// slide email container up
+@include keyframes(slide-up){
+    0%   {bottom: -400px;}
+    25%  {bottom: -300px;}
+    50%  {bottom: -100px;}
+    75%  {bottom: -50px;}
+    100% {bottom: 0px;}
+}
+
+// flikering animation for atention to email widget
+@include keyframes(fliker){
+    0%   {opacity: .2;}
+    25%  {opacity: .5;}
+    50%  {opacity: 1;}
+    75%  {opacity: .5;}
+    100% {opacity: .2;}
+}

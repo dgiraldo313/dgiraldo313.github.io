@@ -1,14 +1,13 @@
 import React, { Component } from 'react';
 
+import Social from '../widgets/Social';
 
 class Footer extends Component {
   render() {
     return (
       <div id="footer">
         <div className="left-side">
-          <div className="social-icons">
-            social icons
-          </div>
+          <Social />
         </div>
         <div className="right-side">
           <div className="copy-right">

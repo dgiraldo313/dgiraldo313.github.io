@@ -12,6 +12,22 @@
   .left-side{
     float: left;
     padding-left: 15px;
+    height: inherit;
+    #social-icons{
+      a{
+        i{
+          font-size: 2em;
+          margin-right: 10px;
+        }
+        @include media-query(phone-tablet){
+          i{
+            font-size: 1.5em;
+          }
+
+        }
+      }
+    }
+
   }
   .right-side{
     float: right;
@@ -20,18 +36,22 @@
       float: right;
     }
     .copy-right{
-      font-size: .9em;
+      // font-size: 1em;
       font-weight: lighter;
-      opacity: .5;
+      @include opacity(.5);
       i{
-        font-size: 1.3em;
+        font-size: 1.5em;
+        margin:5px;
       }
       p{
+        font-size: 1.2em;
         display: inline-block;
         margin: 0px;
       }
+      @include media-query(phone){
+        font-size: .7em;
+      }
     }
   }
-
 
 }

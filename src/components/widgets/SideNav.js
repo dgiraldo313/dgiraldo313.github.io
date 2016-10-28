@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import NavLinks from './NavLinks';
+import NavLinks from './NavLinks/NavLinks';
 
 class SideNav extends Component {
   render() {

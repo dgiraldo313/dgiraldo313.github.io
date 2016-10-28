@@ -11,14 +11,19 @@ import About from './components/pages/About';
 import Work from './components/pages/Work';
 import Contact from './components/pages/Contact';
 
+// import content
+import Content from './data/Content';
+
+console.dir(Content);
+
 //Routes
 const routes = (
   <Router history={ browserHistory }>
     <Route component={ App }>
-      <Route path="/" component={ Home } />
-      <Route path="about" component={ About } />
-      <Route path="work" component={ Work } />
-      <Route path="contact" component={ Contact } />
+      <Route path="/" component={ Home } content={ Content.home }/>
+      <Route path="about" component={ About } content={ Content.about } />
+      <Route path="work" component={ Work } content={ Content.work } />
+      <Route path="contact" component={ Contact } content={ Content.contact } />
     </Route>
   </Router>
 );

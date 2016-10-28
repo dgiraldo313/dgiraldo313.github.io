@@ -8,8 +8,8 @@ class Sidebar extends Component {
         <SideNav />
         <div className="email-container">
           <a href="/ "className="email-widget">
-            <i className="fa fa-envelope" aria-hidden="true"></i>
-            <p>Lets Talk!</p>
+            <i className="fa fa-coffee" aria-hidden="true"></i>
+            <p>Lets Get a Drink!</p>
           </a>
         </div>
       </div>

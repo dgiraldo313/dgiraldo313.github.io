@@ -8,7 +8,7 @@ html,body{
   // font-family: 'Inconsolata', monospace;
   // font-family: 'Open Sans', sans-serif;
   font-family: 'Signika Negative', sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   // letter-spacing: .5px;
   a{
     text-decoration: none;
@@ -24,34 +24,76 @@ html,body{
       display: inline-block;
       position: relative;
       height: 93vh;
-      transition: .2s all ease-in;
+      @include transition(all 0.3s ease-out 0s);
     }
     .left-container{
-      width: 20%;
+      // initial width, which will change with animation
+      width: 0%;
       float: left;
+      @include animation(open-panel-left .3s .2s forwards);
 
     }
     .right-container{
-      width: 80%;
+      width: 100%;
       float: right;
+      @include animation(open-panel-right .3s .2s forwards);
+    }
+
+    // social icons
+    #social-icons{
+      a{
+        display: inline-block;
+        i{
+          position: relative;
+          text-align: center;
+          color: $dark-sidebar-text-color;
+          line-height: inherit;
+          @include opacity(.5);
+          &:hover{
+            @include transition();
+            @include opacity(1);
+            &.twitter{
+              color: #55acee;
+            }
+            &.linked-in{
+              color: #0077b5;
+            }
+            &.github{
+              color: #4183c4;
+            }
+            &.website{
+              color: #94c873;
+            }
+          }
+        }
+      }
     }
 
     // media queries
     @include media-query(phone-tablet){
       .left-container{
-        display: none;
+        width: 0%;
+        @include animation(none);
+        .nav-links,
+        .email-container{
+          // @include transition(all .1s ease-out 0s);
+          @include transform(translateX(-300px));
+        }
       }
       .right-container{
         width: 100%;
+        @include animation(none);
       }
     }
 
     @include media-query(medium-screen){
       .left-container{
-        width: 30%;
+        width: 30%!important;
+        @include animation(none);
       }
       .right-container{
-        width: 70%;
+        width: 70%!important;
+        @include animation(none);
       }
     }
 

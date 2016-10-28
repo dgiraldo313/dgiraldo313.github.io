@@ -22,9 +22,9 @@ class App extends Component {
         <div className="right-container">
           <Topbar />
           <div id="main">
-            <div className="content-container">
-              { this.props.children }
-            </div>
+
+            { this.props.children }
+
           </div>
         </div>
         <Footer />

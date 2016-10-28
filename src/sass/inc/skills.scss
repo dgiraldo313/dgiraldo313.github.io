@@ -1,0 +1,175 @@
+
+@import "../partials/mixins";
+/**********************
+Skills Grid
+***********************/
+@mixin skillGrid($num) {
+  .grid-#{$num} {
+    width: calc(1/#{$num} * 100%);
+
+  }
+  @include media-query(phone){
+    .grid-#{$num} {
+      width: calc(1/2 * 100%);
+    }
+  }
+
+
+}
+
+/**********************
+Skills Colors
+***********************/
+$js: #c25975;
+$html: #f9845b;//#53bbb4;//#e34f26;
+$css: #3079ab;
+$sass: #cd669a;
+$jquery: #f0db4f;//#0769ad;
+$wordpress: #838cc7;
+$git: #ff9933;
+$databases: #eb7728;
+$php: #617cbe;
+$react: #53bbb4;//#00d8ff;
+$node: #7fbd42;
+$ror: #e15258;// #cc342d;
+$ruby: #e15258;
+$adobe-suite: #e59a13;
+$python: #f092b0;//#ffd040;
+$java: #2c9676;
+$api: #9e4d83 ;
+
+
+#skills{
+  .skills-container{
+    position: relative;
+    display: block;
+    width: 100%;
+    span{
+      // opacity: .8;
+      font-weight: bold;
+      text-transform: uppercase;
+      display: inline-block;
+      line-height: 15px;
+      text-align: center;
+      &:nth-child(1){
+        border-radius: 5px 0px 0px 5px;
+      }
+      &:last-child{
+        border-radius: 0px 5px 5px 0px;
+      }
+      //colors
+      &.js{
+        background-color: $js;
+      }
+      &.html{
+        background-color: $html;
+      }
+      &.css{
+        background-color: $css;
+      }
+      &.sass{
+        background-color: $sass;
+      }
+      &.jquery{
+        background-color: $jquery;
+      }
+      &.wordpress{
+        background-color: $wordpress;
+      }
+      &.git{
+        background-color: $git;
+      }
+      &.databases{
+        background-color: $databases;
+      }
+      &.php{
+        background-color: $php;
+      }
+      &.react{
+        background-color: $react;
+      }
+      &.node{
+        background-color: $node;
+      }
+      &.ror{
+        background-color: $ror;
+      }
+      &.ruby{
+        background-color: $ruby;
+      }
+      &.adobe{
+        background-color: $adobe-suite;
+      }
+      &.python{
+        background-color: $python;
+      }
+      &.java{
+        background-color: $java;
+      }
+      &.api{
+        background-color: $api;
+      }
+
+      // media queries
+      @include media-query(phone){
+        // span{
+          &:nth-child(1){
+            border-radius: 5px 0px 0px 0px;
+          }
+          &:nth-child(2){
+            border-radius: 0px 5px 0px 0px;
+          }
+          &:last-child {
+            border-radius: 0px 0px 5px 0px;
+          }
+          &:nth-last-child(2){
+            border-radius: 0px 0px 0px 5px;
+          }
+        // }
+      }
+
+      @include media-query(tablet-medium){
+        font-size: .8em;
+      }
+
+
+
+
+
+    }
+    // @include media-query(phone){
+    //   span{
+    //     &:nth-child(1){
+    //       border-radius: 5px 0px 0px 0px;
+    //     }
+    //     &:nth-child(2){
+    //       border-radius: 0px 5px 0px 0px;
+    //     }
+    //     &:last-child {
+    //       border-radius: 0px 0px 5px 0px;
+    //     }
+    //     &:nth-last-child(2){
+    //       border-radius: 0px 0px 0px 5px;
+    //     }
+    //   }
+    // }
+    // @include media-query(phone-tablet){
+    //   span{
+    //
+    //   }
+    // }
+    //grids
+    @include skillGrid(1);
+    @include skillGrid(2);
+    @include skillGrid(3);
+    @include skillGrid(4);
+    @include skillGrid(5);
+    @include skillGrid(6);
+    @include skillGrid(7);
+    @include skillGrid(8);
+    @include skillGrid(9);
+    @include skillGrid(10);
+  }
+
+
+}

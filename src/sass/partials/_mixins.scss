@@ -17,10 +17,92 @@ $break-large: 1024px;
   @else if $media == tablet {
     @media only screen and (min-width: $break-small + 1) and (max-width: $break-medium - 1) { @content; }
   }
+  @else if $media == tablet-medium {
+    @media only screen and (max-width: $break-large) { @content; }
+  }
   @else if $media == medium-screen {
     @media only screen and (min-width: $break-medium +1) and (max-width: $break-large - 1) { @content; }
   }
   @else if $media == wide-screen {
     @media only screen and (min-width: $break-large) { @content; }
   }
+}
+
+/**********************
+Prefixes
+***********************/
+@mixin prefix($property, $value) {
+  -webkit-#{$property}: #{$value};
+   -khtml-#{$property}: #{$value};
+     -moz-#{$property}: #{$value};
+      -ms-#{$property}: #{$value};
+       -o-#{$property}: #{$value};
+          #{$property}: #{$value};
+}
+
+
+/**********************
+Border Radius
+***********************/
+@mixin border-radius($radius: 5px) {
+    @include prefix('border-radius', $radius);
+}
+
+
+/**********************
+Opacity
+***********************/
+@mixin opacity($opacity: 0.5) {
+    $opacityMultiplied: ($opacity * 100);
+
+    filter:         alpha(opacity=$opacityMultiplied);
+    -ms-filter:     "progid:DXImageTransform.Microsoft.Alpha(Opacity=" + $opacityMultiplied + ")";
+    @include prefix('opacity', $opacity);
+}
+/**********************
+transition
+***********************/
+@mixin transition($properties...) {
+
+  @if length($properties) >= 1 {
+    @include prefix('transition', $properties);
+  }
+
+  @else {
+    @include prefix('transition',  "all 0.2s ease-in-out 0s");
+  }
+}
+/**********************
+Transform
+***********************/
+@mixin transform($params) {
+  @include prefix('transform', $params);
+}
+
+/**********************
+Keyframes
+***********************/
+@mixin keyframes($animation-name) {
+  @-webkit-keyframes #{$animation-name} {
+    @content;
+  }
+  @-moz-keyframes #{$animation-name} {
+    @content;
+  }
+  @-ms-keyframes #{$animation-name} {
+    @content;
+  }
+  @-o-keyframes #{$animation-name} {
+    @content;
+  }
+  @keyframes #{$animation-name} {
+    @content;
+  }
+}
+
+/**********************
+Animation
+***********************/
+@mixin animation($str) {
+  @include prefix('animation', $str);
 }

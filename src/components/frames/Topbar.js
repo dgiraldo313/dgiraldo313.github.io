@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import NavLinks from '../widgets/NavLinks';
+import NavLinks from '../widgets/NavLinks/NavLinks';
 
 class Topbar extends Component {
   render() {

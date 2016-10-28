@@ -1,18 +1,41 @@
 #main{
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 1px;
   display: block;
   position: relative;
   width: 100%;
-  height: 88vh;
+  height: 85vh;
   // background-color: $main-content-background-dark;
   border: 1px solid;
   border-top: 0px;
   border-bottom: 0px;
   padding: 40px;
   overflow: scroll;
-  .content-container{
-    width: 100%;
-    min-height: 100%;
-    // background: url('/src/images/page_background.jpg');
-    // background-color: #d7dae0;
+  p{
+    font-weight: 400;
+    font-size: 1.1em;
+    // line-height: 25px;
+
   }
+  @include media-query(phone){
+    padding: 20px;
+  }
+
+  .content{
+    max-width: 840px;
+    margin: auto;
+
+    .header{
+      text-align: center;
+      i{
+        font-size: 8em;
+        margin-bottom: 10px;
+      }
+    }
+    @include media-query(phone){
+      font-size: .9em;
+
+    }
+  }
+
 }
