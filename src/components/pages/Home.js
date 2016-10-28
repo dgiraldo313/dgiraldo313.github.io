@@ -12,7 +12,7 @@ class Home extends Component{
           <img className="avatar" src={ content.AvatarURL }/>
           <div>
             <div className="greeting">
-              { this.randomGreeting(content.greetings) }
+              { this.randomGreeting() }
             </div>
             <div className="tag-line">
               { content.description }
@@ -23,13 +23,13 @@ class Home extends Component{
       </div>
     );
   }
+  /* generate random greeting to display every time
+      user visits the site */
+  randomGreeting() {
+    let greetings = this.props.route.content.greetings;
+    let randomNumber = Math.floor(Math.random() * greetings.length);
+    return greetings[randomNumber];
+  }
 }
-
-/* generate random greeting to display every time
-    user visits the site */
-Home.prototype.randomGreeting = (greetings) => {
-  let randomNumber = Math.floor(Math.random() * greetings.length);
-  return greetings[randomNumber];
-};
 
 export default Home;
