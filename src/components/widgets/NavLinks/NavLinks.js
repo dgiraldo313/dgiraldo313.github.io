@@ -9,7 +9,7 @@ class NavLinks extends Component{
         <NavLink dest="/" content="home.html" classAtts={ classAtts } />
         <NavLink dest="/about" content="about.css" classAtts={ classAtts } />
         <NavLink dest="/work" content="work.js" classAtts={ classAtts } />
-        <NavLink dest="/contact" content="contact.scss" classAtts={ classAtts } />
+        <NavLink dest="/contact" content="contact.xml" classAtts={ classAtts } />
       </div>
     );
   }
