@@ -21475,7 +21475,7 @@
 
 
 	// module
-	exports.push([module.id, "button, hr, input {\n  overflow: visible; }\n\naudio, canvas, progress, video {\n  display: inline-block; }\n\nprogress, sub, sup {\n  vertical-align: baseline; }\n\nhtml {\n  font-family: sans-serif;\n  line-height: 1.15;\n  -ms-text-size-adjust: 100%;\n  -webkit-text-size-adjust: 100%; }\n\nbody {\n  margin: 0; }\n\nmenu, article, aside, details, footer, header, nav, section {\n  display: block; }\n\nh1 {\n  font-size: 2em;\n  margin: .67em 0; }\n\nfigcaption, figure, main {\n  display: block; }\n\nfigure {\n  margin: 1em 40px; }\n\nhr {\n  box-sizing: content-box;\n  height: 0; }\n\ncode, kbd, pre, samp {\n  font-family: monospace,monospace;\n  font-size: 1em; }\n\na {\n  background-color: transparent;\n  -webkit-text-decoration-skip: objects; }\n\na:active, a:hover {\n  outline-width: 0; }\n\nabbr[title] {\n  border-bottom: none;\n  text-decoration: underline;\n  text-decoration: underline dotted; }\n\nb, strong {\n  font-weight: bolder; }\n\ndfn {\n  font-style: italic; }\n\nmark {\n  background-color: #ff0;\n  color: #000; }\n\nsmall {\n  font-size: 80%; }\n\nsub, sup {\n  font-size: 75%;\n  line-height: 0;\n  position: relative; }\n\nsub {\n  bottom: -.25em; }\n\nsup {\n  top: -.5em; }\n\naudio:not([controls]) {\n  display: none;\n  height: 0; }\n\nimg {\n  border-style: none; }\n\nsvg:not(:root) {\n  overflow: hidden; }\n\nbutton, input, optgroup, select, textarea {\n  font-family: sans-serif;\n  font-size: 100%;\n  line-height: 1.15;\n  margin: 0; }\n\nbutton, select {\n  text-transform: none; }\n\n[type=submit], [type=reset], button, html [type=button] {\n  -webkit-appearance: button; }\n\n[type=button]::-moz-focus-inner, [type=reset]::-moz-focus-inner, [type=submit]::-moz-focus-inner, button::-moz-focus-inner {\n  border-style: none;\n  padding: 0; }\n\n[type=button]:-moz-focusring, [type=reset]:-moz-focusring, [type=submit]:-moz-focusring, button:-moz-focusring {\n  outline: ButtonText dotted 1px; }\n\nfieldset {\n  border: 1px solid silver;\n  margin: 0 2px;\n  padding: .35em .625em .75em; }\n\nlegend {\n  box-sizing: border-box;\n  color: inherit;\n  display: table;\n  max-width: 100%;\n  padding: 0;\n  white-space: normal; }\n\ntextarea {\n  overflow: auto; }\n\n[type=checkbox], [type=radio] {\n  box-sizing: border-box;\n  padding: 0; }\n\n[type=number]::-webkit-inner-spin-button, [type=number]::-webkit-outer-spin-button {\n  height: auto; }\n\n[type=search] {\n  -webkit-appearance: textfield;\n  outline-offset: -2px; }\n\n[type=search]::-webkit-search-cancel-button, [type=search]::-webkit-search-decoration {\n  -webkit-appearance: none; }\n\n::-webkit-file-upload-button {\n  -webkit-appearance: button;\n  font: inherit; }\n\nsummary {\n  display: list-item; }\n\n[hidden], template {\n  display: none; }\n\n/*# sourceMappingURL=normalize.min.css.map */\n/**********************\nMedia Queries\n***********************/\n/**********************\nPrefixes\n***********************/\n/**********************\nBorder Radius\n***********************/\n/**********************\nOpacity\n***********************/\n/**********************\ntransition\n***********************/\n/**********************\nTransform\n***********************/\n/**********************\nKeyframes\n***********************/\n/**********************\nAnimation\n***********************/\n/***********************\n   Dark theme colors\n************************/\n/********* Sidebar ***************/\n/********* Topbar ***************/\n/********* Main Content ***************/\n@-webkit-keyframes open-panel-left {\n  from {\n    width: 0%; }\n  to {\n    width: 20%; } }\n\n@-moz-keyframes open-panel-left {\n  from {\n    width: 0%; }\n  to {\n    width: 20%; } }\n\n@-ms-keyframes open-panel-left {\n  from {\n    width: 0%; }\n  to {\n    width: 20%; } }\n\n@-o-keyframes open-panel-left {\n  from {\n    width: 0%; }\n  to {\n    width: 20%; } }\n\n@keyframes open-panel-left {\n  from {\n    width: 0%; }\n  to {\n    width: 20%; } }\n\n@-webkit-keyframes open-panel-right {\n  from {\n    width: 100%; }\n  to {\n    width: 80%; } }\n\n@-moz-keyframes open-panel-right {\n  from {\n    width: 100%; }\n  to {\n    width: 80%; } }\n\n@-ms-keyframes open-panel-right {\n  from {\n    width: 100%; }\n  to {\n    width: 80%; } }\n\n@-o-keyframes open-panel-right {\n  from {\n    width: 100%; }\n  to {\n    width: 80%; } }\n\n@keyframes open-panel-right {\n  from {\n    width: 100%; }\n  to {\n    width: 80%; } }\n\n@-webkit-keyframes slide-in-left {\n  0% {\n    left: -400px; }\n  25% {\n    left: -300px; }\n  50% {\n    left: -100px; }\n  75% {\n    left: -50px; }\n  100% {\n    left: 0px; } }\n\n@-moz-keyframes slide-in-left {\n  0% {\n    left: -400px; }\n  25% {\n    left: -300px; }\n  50% {\n    left: -100px; }\n  75% {\n    left: -50px; }\n  100% {\n    left: 0px; } }\n\n@-ms-keyframes slide-in-left {\n  0% {\n    left: -400px; }\n  25% {\n    left: -300px; }\n  50% {\n    left: -100px; }\n  75% {\n    left: -50px; }\n  100% {\n    left: 0px; } }\n\n@-o-keyframes slide-in-left {\n  0% {\n    left: -400px; }\n  25% {\n    left: -300px; }\n  50% {\n    left: -100px; }\n  75% {\n    left: -50px; }\n  100% {\n    left: 0px; } }\n\n@keyframes slide-in-left {\n  0% {\n    left: -400px; }\n  25% {\n    left: -300px; }\n  50% {\n    left: -100px; }\n  75% {\n    left: -50px; }\n  100% {\n    left: 0px; } }\n\n@-webkit-keyframes open-menu {\n  from {\n    height: 0px; }\n  to {\n    height: 120px; } }\n\n@-moz-keyframes open-menu {\n  from {\n    height: 0px; }\n  to {\n    height: 120px; } }\n\n@-ms-keyframes open-menu {\n  from {\n    height: 0px; }\n  to {\n    height: 120px; } }\n\n@-o-keyframes open-menu {\n  from {\n    height: 0px; }\n  to {\n    height: 120px; } }\n\n@keyframes open-menu {\n  from {\n    height: 0px; }\n  to {\n    height: 120px; } }\n\n@-webkit-keyframes slide-up {\n  0% {\n    bottom: -400px; }\n  25% {\n    bottom: -300px; }\n  50% {\n    bottom: -100px; }\n  75% {\n    bottom: -50px; }\n  100% {\n    bottom: 0px; } }\n\n@-moz-keyframes slide-up {\n  0% {\n    bottom: -400px; }\n  25% {\n    bottom: -300px; }\n  50% {\n    bottom: -100px; }\n  75% {\n    bottom: -50px; }\n  100% {\n    bottom: 0px; } }\n\n@-ms-keyframes slide-up {\n  0% {\n    bottom: -400px; }\n  25% {\n    bottom: -300px; }\n  50% {\n    bottom: -100px; }\n  75% {\n    bottom: -50px; }\n  100% {\n    bottom: 0px; } }\n\n@-o-keyframes slide-up {\n  0% {\n    bottom: -400px; }\n  25% {\n    bottom: -300px; }\n  50% {\n    bottom: -100px; }\n  75% {\n    bottom: -50px; }\n  100% {\n    bottom: 0px; } }\n\n@keyframes slide-up {\n  0% {\n    bottom: -400px; }\n  25% {\n    bottom: -300px; }\n  50% {\n    bottom: -100px; }\n  75% {\n    bottom: -50px; }\n  100% {\n    bottom: 0px; } }\n\n@-webkit-keyframes fliker {\n  0% {\n    opacity: .2; }\n  25% {\n    opacity: .5; }\n  50% {\n    opacity: 1; }\n  75% {\n    opacity: .5; }\n  100% {\n    opacity: .2; } }\n\n@-moz-keyframes fliker {\n  0% {\n    opacity: .2; }\n  25% {\n    opacity: .5; }\n  50% {\n    opacity: 1; }\n  75% {\n    opacity: .5; }\n  100% {\n    opacity: .2; } }\n\n@-ms-keyframes fliker {\n  0% {\n    opacity: .2; }\n  25% {\n    opacity: .5; }\n  50% {\n    opacity: 1; }\n  75% {\n    opacity: .5; }\n  100% {\n    opacity: .2; } }\n\n@-o-keyframes fliker {\n  0% {\n    opacity: .2; }\n  25% {\n    opacity: .5; }\n  50% {\n    opacity: 1; }\n  75% {\n    opacity: .5; }\n  100% {\n    opacity: .2; } }\n\n@keyframes fliker {\n  0% {\n    opacity: .2; }\n  25% {\n    opacity: .5; }\n  50% {\n    opacity: 1; }\n  75% {\n    opacity: .5; }\n  100% {\n    opacity: .2; } }\n\n#app.dark {\n  background: #21252B;\n  border-color: black; }\n  #app.dark #sidebar {\n    color: #9DA5B4; }\n    #app.dark #sidebar a {\n      color: #9DA5B4; }\n    #app.dark #sidebar .nav-links .tree-level:hover {\n      background-color: #31363F;\n      color: #D7DAE0; }\n      #app.dark #sidebar .nav-links .tree-level:hover a {\n        color: #D7DAE0; }\n    #app.dark #sidebar .nav-links .files .active {\n      color: #e07f62; }\n      #app.dark #sidebar .nav-links .files .active div {\n        background-color: #31363F; }\n      #app.dark #sidebar .nav-links .files .active a {\n        color: #D7DAE0; }\n    #app.dark #sidebar .email-container .email-widget i, #app.dark #sidebar .email-container .email-widget p {\n      color: #9DA5B4; }\n    #app.dark #sidebar .email-container .email-widget:hover i {\n      color: #407ecf; }\n    #app.dark #sidebar .email-container .email-widget:hover p {\n      color: #d7dae0; }\n  #app.dark #topbar {\n    color: #686F7B; }\n    #app.dark #topbar #top-nav .nav-links .tabs a.active .tab,\n    #app.dark #topbar #top-nav .nav-links .tabs a:hover .tab {\n      -webkit-box-shadow: inset 1px 1px 1px 0px rgba(255, 255, 255, 0.1);\n      -khtml-box-shadow: inset 1px 1px 1px 0px rgba(255, 255, 255, 0.1);\n      -moz-box-shadow: inset 1px 1px 1px 0px rgba(255, 255, 255, 0.1);\n      -ms-box-shadow: inset 1px 1px 1px 0px rgba(255, 255, 255, 0.1);\n      -o-box-shadow: inset 1px 1px 1px 0px rgba(255, 255, 255, 0.1);\n      box-shadow: inset 1px 1px 1px 0px rgba(255, 255, 255, 0.1);\n      border-image: none;\n      background-color: #282c34;\n      border-left-color: #00a9ea;\n      border-top-color: black;\n      color: #D7DAE0; }\n    #app.dark #topbar #top-nav .nav-links .tabs .tab {\n      border-color: black;\n      color: #686F7B; }\n  #app.dark #main {\n    background-color: #282c34; }\n  #app.dark #footer .right-side .copy-right i {\n    color: #e07f62; }\n  #app.dark #footer .right-side .copy-right p {\n    color: #548cd4; }\n\n* {\n  box-sizing: border-box; }\n\nhtml, body {\n  margin: 0;\n  padding: 0;\n  font-family: 'Signika Negative', sans-serif;\n  font-size: 12px; }\n  html a, body a {\n    text-decoration: none; }\n  html #app, body #app {\n    overflow: hidden;\n    display: block;\n    position: absolute;\n    width: 100%;\n    height: 100vh; }\n    html #app .left-container,\n    html #app .right-container, body #app .left-container,\n    body #app .right-container {\n      display: inline-block;\n      position: relative;\n      height: 93vh;\n      -webkit-transition: all 0.3s ease-out 0s;\n      -khtml-transition: all 0.3s ease-out 0s;\n      -moz-transition: all 0.3s ease-out 0s;\n      -ms-transition: all 0.3s ease-out 0s;\n      -o-transition: all 0.3s ease-out 0s;\n      transition: all 0.3s ease-out 0s; }\n    html #app .left-container, body #app .left-container {\n      width: 0%;\n      float: left;\n      -webkit-animation: open-panel-left 0.3s 0.2s forwards;\n      -khtml-animation: open-panel-left 0.3s 0.2s forwards;\n      -moz-animation: open-panel-left 0.3s 0.2s forwards;\n      -ms-animation: open-panel-left 0.3s 0.2s forwards;\n      -o-animation: open-panel-left 0.3s 0.2s forwards;\n      animation: open-panel-left 0.3s 0.2s forwards; }\n    html #app .right-container, body #app .right-container {\n      width: 100%;\n      float: right;\n      -webkit-animation: open-panel-right 0.3s 0.2s forwards;\n      -khtml-animation: open-panel-right 0.3s 0.2s forwards;\n      -moz-animation: open-panel-right 0.3s 0.2s forwards;\n      -ms-animation: open-panel-right 0.3s 0.2s forwards;\n      -o-animation: open-panel-right 0.3s 0.2s forwards;\n      animation: open-panel-right 0.3s 0.2s forwards; }\n    @media only screen and (max-width: 720px) {\n      html #app .left-container, body #app .left-container {\n        width: 0%;\n        -webkit-animation: none;\n        -khtml-animation: none;\n        -moz-animation: none;\n        -ms-animation: none;\n        -o-animation: none;\n        animation: none; }\n        html #app .left-container .nav-links,\n        html #app .left-container .email-container, body #app .left-container .nav-links,\n        body #app .left-container .email-container {\n          -webkit-transform: translateX(-300px);\n          -khtml-transform: translateX(-300px);\n          -moz-transform: translateX(-300px);\n          -ms-transform: translateX(-300px);\n          -o-transform: translateX(-300px);\n          transform: translateX(-300px); }\n      html #app .right-container, body #app .right-container {\n        width: 100%;\n        -webkit-animation: none;\n        -khtml-animation: none;\n        -moz-animation: none;\n        -ms-animation: none;\n        -o-animation: none;\n        animation: none; } }\n    @media only screen and (min-width: 721px) and (max-width: 1023px) {\n      html #app .left-container, body #app .left-container {\n        width: 30% !important;\n        -webkit-animation: none;\n        -khtml-animation: none;\n        -moz-animation: none;\n        -ms-animation: none;\n        -o-animation: none;\n        animation: none; }\n      html #app .right-container, body #app .right-container {\n        width: 70% !important;\n        -webkit-animation: none;\n        -khtml-animation: none;\n        -moz-animation: none;\n        -ms-animation: none;\n        -o-animation: none;\n        animation: none; } }\n\n#sidebar {\n  position: relative;\n  display: block;\n  height: 100%; }\n  #sidebar #side-nav {\n    padding-top: 20px; }\n    #sidebar #side-nav a {\n      text-decoration: none; }\n    #sidebar #side-nav .nav-links .tree-level {\n      position: relative;\n      left: -400px;\n      display: block;\n      width: 100%;\n      padding-top: 5px;\n      padding-bottom: 5px; }\n      #sidebar #side-nav .nav-links .tree-level span {\n        display: inline-block;\n        font-size: 1.5em;\n        font-weight: bold;\n        font-family: 'Signika Negative', sans-serif;\n        margin: 0px; }\n      #sidebar #side-nav .nav-links .tree-level.first {\n        -webkit-animation: slide-in-left 0.2s 0.5s forwards;\n        -khtml-animation: slide-in-left 0.2s 0.5s forwards;\n        -moz-animation: slide-in-left 0.2s 0.5s forwards;\n        -ms-animation: slide-in-left 0.2s 0.5s forwards;\n        -o-animation: slide-in-left 0.2s 0.5s forwards;\n        animation: slide-in-left 0.2s 0.5s forwards;\n        padding-left: 5px; }\n      #sidebar #side-nav .nav-links .tree-level.second {\n        -webkit-animation: slide-in-left 0.2s 0.9s forwards;\n        -khtml-animation: slide-in-left 0.2s 0.9s forwards;\n        -moz-animation: slide-in-left 0.2s 0.9s forwards;\n        -ms-animation: slide-in-left 0.2s 0.9s forwards;\n        -o-animation: slide-in-left 0.2s 0.9s forwards;\n        animation: slide-in-left 0.2s 0.9s forwards;\n        padding-left: 25px; }\n      #sidebar #side-nav .nav-links .tree-level.third {\n        left: 0px;\n        padding-left: 45px; }\n      #sidebar #side-nav .nav-links .tree-level::before {\n        margin-right: 2px; }\n      #sidebar #side-nav .nav-links .tree-level .folder::before {\n        margin-right: 2px; }\n    #sidebar #side-nav .nav-links .files {\n      position: relative;\n      overflow: hidden;\n      height: 0px;\n      -webkit-animation: open-menu 0.8s 1.2s forwards;\n      -khtml-animation: open-menu 0.8s 1.2s forwards;\n      -moz-animation: open-menu 0.8s 1.2s forwards;\n      -ms-animation: open-menu 0.8s 1.2s forwards;\n      -o-animation: open-menu 0.8s 1.2s forwards;\n      animation: open-menu 0.8s 1.2s forwards; }\n      #sidebar #side-nav .nav-links .files div {\n        cursor: pointer; }\n  #sidebar .email-container {\n    position: absolute;\n    bottom: -500px;\n    width: 100%;\n    margin-bottom: 50px;\n    -webkit-animation: slide-up 0.3s 10s forwards;\n    -khtml-animation: slide-up 0.3s 10s forwards;\n    -moz-animation: slide-up 0.3s 10s forwards;\n    -ms-animation: slide-up 0.3s 10s forwards;\n    -o-animation: slide-up 0.3s 10s forwards;\n    animation: slide-up 0.3s 10s forwards; }\n    #sidebar .email-container .email-widget {\n      display: block;\n      width: 150px;\n      height: 60px;\n      margin: auto;\n      -webkit-animation: fliker 2s 9s 10;\n      -khtml-animation: fliker 2s 9s 10;\n      -moz-animation: fliker 2s 9s 10;\n      -ms-animation: fliker 2s 9s 10;\n      -o-animation: fliker 2s 9s 10;\n      animation: fliker 2s 9s 10; }\n      #sidebar .email-container .email-widget i {\n        width: inherit;\n        height: inherit;\n        font-size: 60px;\n        line-height: 65px;\n        text-align: center; }\n      #sidebar .email-container .email-widget p {\n        font-size: 1.3em;\n        margin-top: 5px;\n        text-align: center;\n        text-decoration: none;\n        font-weight: bolder; }\n      #sidebar .email-container .email-widget i, #sidebar .email-container .email-widget p {\n        -webkit-transition: all 0.2s ease-in-out 0s;\n        -khtml-transition: all 0.2s ease-in-out 0s;\n        -moz-transition: all 0.2s ease-in-out 0s;\n        -ms-transition: all 0.2s ease-in-out 0s;\n        -o-transition: all 0.2s ease-in-out 0s;\n        transition: all 0.2s ease-in-out 0s; }\n      #sidebar .email-container .email-widget:hover i, #sidebar .email-container .email-widget:hover p {\n        filter: alpha(opacity=100);\n        -ms-filter: \"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)\";\n        -webkit-opacity: 1;\n        -khtml-opacity: 1;\n        -moz-opacity: 1;\n        -ms-opacity: 1;\n        -o-opacity: 1;\n        opacity: 1; }\n\n#topbar {\n  height: 8vh; }\n  #topbar #top-nav .nav-links .tabs {\n    width: 100%;\n    display: flex;\n    font-size: 1.2em; }\n    #topbar #top-nav .nav-links .tabs a {\n      display: inline-block;\n      width: calc(25%); }\n      #topbar #top-nav .nav-links .tabs a.active .tab, #topbar #top-nav .nav-links .tabs a:hover .tab {\n        -webkit-border-radius: 4px 4px 0px 1px;\n        -khtml-border-radius: 4px 4px 0px 1px;\n        -moz-border-radius: 4px 4px 0px 1px;\n        -ms-border-radius: 4px 4px 0px 1px;\n        -o-border-radius: 4px 4px 0px 1px;\n        border-radius: 4px 4px 0px 1px;\n        border: solid;\n        border-left-width: 3px;\n        border-right-width: 1px;\n        border-top-width: 1px;\n        border-bottom: 0px;\n        -webkit-transition: all 0.2s ease-in-out 0s;\n        -khtml-transition: all 0.2s ease-in-out 0s;\n        -moz-transition: all 0.2s ease-in-out 0s;\n        -ms-transition: all 0.2s ease-in-out 0s;\n        -o-transition: all 0.2s ease-in-out 0s;\n        transition: all 0.2s ease-in-out 0s; }\n      #topbar #top-nav .nav-links .tabs a .tab {\n        height: 6vh;\n        margin-top: 2vh;\n        text-align: center;\n        line-height: 6vh;\n        text-decoration: none;\n        border-style: solid;\n        border-right-width: 1px;\n        border-left-width: 0px;\n        border-bottom-width: 1px;\n        border-top-width: 0px;\n        -webkit-transition: all 0.2s ease-in-out 0s;\n        -khtml-transition: all 0.2s ease-in-out 0s;\n        -moz-transition: all 0.2s ease-in-out 0s;\n        -ms-transition: all 0.2s ease-in-out 0s;\n        -o-transition: all 0.2s ease-in-out 0s;\n        transition: all 0.2s ease-in-out 0s; }\n\n#main {\n  display: block;\n  position: relative;\n  width: 100%;\n  height: 85vh;\n  border: 1px solid;\n  border-top: 0px;\n  border-bottom: 0px;\n  padding: 40px;\n  overflow: scroll; }\n  #main .content-container {\n    width: 100%;\n    min-height: 100%; }\n\n#footer {\n  position: relative;\n  clear: both;\n  border-top: 1px solid;\n  height: 7vh; }\n  #footer .left-side,\n  #footer .right-side {\n    display: inline-block;\n    width: calc(50% - 2px);\n    line-height: 7vh; }\n  #footer .left-side {\n    float: left;\n    padding-left: 15px;\n    height: inherit; }\n    #footer .left-side .social-icons a {\n      display: inline-block; }\n      #footer .left-side .social-icons a i {\n        position: relative;\n        margin-right: 10px;\n        font-size: 2em;\n        text-align: center;\n        color: #9DA5B4;\n        line-height: inherit;\n        filter: alpha(opacity=50);\n        -ms-filter: \"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)\";\n        -webkit-opacity: 0.5;\n        -khtml-opacity: 0.5;\n        -moz-opacity: 0.5;\n        -ms-opacity: 0.5;\n        -o-opacity: 0.5;\n        opacity: 0.5; }\n        #footer .left-side .social-icons a i:hover {\n          -webkit-transition: all 0.2s ease-in-out 0s;\n          -khtml-transition: all 0.2s ease-in-out 0s;\n          -moz-transition: all 0.2s ease-in-out 0s;\n          -ms-transition: all 0.2s ease-in-out 0s;\n          -o-transition: all 0.2s ease-in-out 0s;\n          transition: all 0.2s ease-in-out 0s;\n          filter: alpha(opacity=100);\n          -ms-filter: \"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)\";\n          -webkit-opacity: 1;\n          -khtml-opacity: 1;\n          -moz-opacity: 1;\n          -ms-opacity: 1;\n          -o-opacity: 1;\n          opacity: 1; }\n          #footer .left-side .social-icons a i:hover.twitter {\n            color: #55acee; }\n          #footer .left-side .social-icons a i:hover.linked-in {\n            color: #0077b5; }\n          #footer .left-side .social-icons a i:hover.github {\n            color: #4183c4; }\n      @media only screen and (max-width: 720px) {\n        #footer .left-side .social-icons a i {\n          font-size: 1.5em; } }\n  #footer .right-side {\n    float: right;\n    padding-right: 15px; }\n    #footer .right-side div {\n      float: right; }\n    #footer .right-side .copy-right {\n      font-weight: lighter;\n      filter: alpha(opacity=50);\n      -ms-filter: \"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)\";\n      -webkit-opacity: 0.5;\n      -khtml-opacity: 0.5;\n      -moz-opacity: 0.5;\n      -ms-opacity: 0.5;\n      -o-opacity: 0.5;\n      opacity: 0.5; }\n      #footer .right-side .copy-right i {\n        font-size: 1.5em;\n        margin: 5px; }\n      #footer .right-side .copy-right p {\n        font-size: 1.2em;\n        display: inline-block;\n        margin: 0px; }\n", ""]);
+	exports.push([module.id, "button, hr, input {\n  overflow: visible; }\n\naudio, canvas, progress, video {\n  display: inline-block; }\n\nprogress, sub, sup {\n  vertical-align: baseline; }\n\nhtml {\n  font-family: sans-serif;\n  line-height: 1.15;\n  -ms-text-size-adjust: 100%;\n  -webkit-text-size-adjust: 100%; }\n\nbody {\n  margin: 0; }\n\nmenu, article, aside, details, footer, header, nav, section {\n  display: block; }\n\nh1 {\n  font-size: 2em;\n  margin: .67em 0; }\n\nfigcaption, figure, main {\n  display: block; }\n\nfigure {\n  margin: 1em 40px; }\n\nhr {\n  box-sizing: content-box;\n  height: 0; }\n\ncode, kbd, pre, samp {\n  font-family: monospace,monospace;\n  font-size: 1em; }\n\na {\n  background-color: transparent;\n  -webkit-text-decoration-skip: objects; }\n\na:active, a:hover {\n  outline-width: 0; }\n\nabbr[title] {\n  border-bottom: none;\n  text-decoration: underline;\n  text-decoration: underline dotted; }\n\nb, strong {\n  font-weight: bolder; }\n\ndfn {\n  font-style: italic; }\n\nmark {\n  background-color: #ff0;\n  color: #000; }\n\nsmall {\n  font-size: 80%; }\n\nsub, sup {\n  font-size: 75%;\n  line-height: 0;\n  position: relative; }\n\nsub {\n  bottom: -.25em; }\n\nsup {\n  top: -.5em; }\n\naudio:not([controls]) {\n  display: none;\n  height: 0; }\n\nimg {\n  border-style: none; }\n\nsvg:not(:root) {\n  overflow: hidden; }\n\nbutton, input, optgroup, select, textarea {\n  font-family: sans-serif;\n  font-size: 100%;\n  line-height: 1.15;\n  margin: 0; }\n\nbutton, select {\n  text-transform: none; }\n\n[type=submit], [type=reset], button, html [type=button] {\n  -webkit-appearance: button; }\n\n[type=button]::-moz-focus-inner, [type=reset]::-moz-focus-inner, [type=submit]::-moz-focus-inner, button::-moz-focus-inner {\n  border-style: none;\n  padding: 0; }\n\n[type=button]:-moz-focusring, [type=reset]:-moz-focusring, [type=submit]:-moz-focusring, button:-moz-focusring {\n  outline: ButtonText dotted 1px; }\n\nfieldset {\n  border: 1px solid silver;\n  margin: 0 2px;\n  padding: .35em .625em .75em; }\n\nlegend {\n  box-sizing: border-box;\n  color: inherit;\n  display: table;\n  max-width: 100%;\n  padding: 0;\n  white-space: normal; }\n\ntextarea {\n  overflow: auto; }\n\n[type=checkbox], [type=radio] {\n  box-sizing: border-box;\n  padding: 0; }\n\n[type=number]::-webkit-inner-spin-button, [type=number]::-webkit-outer-spin-button {\n  height: auto; }\n\n[type=search] {\n  -webkit-appearance: textfield;\n  outline-offset: -2px; }\n\n[type=search]::-webkit-search-cancel-button, [type=search]::-webkit-search-decoration {\n  -webkit-appearance: none; }\n\n::-webkit-file-upload-button {\n  -webkit-appearance: button;\n  font: inherit; }\n\nsummary {\n  display: list-item; }\n\n[hidden], template {\n  display: none; }\n\n/*# sourceMappingURL=normalize.min.css.map */\n/**********************\nMedia Queries\n***********************/\n/**********************\nPrefixes\n***********************/\n/**********************\nBorder Radius\n***********************/\n/**********************\nOpacity\n***********************/\n/**********************\ntransition\n***********************/\n/**********************\nTransform\n***********************/\n/**********************\nKeyframes\n***********************/\n/**********************\nAnimation\n***********************/\n/***********************\n   Dark theme colors\n************************/\n/********* Sidebar ***************/\n/********* Topbar ***************/\n/********* Main Content ***************/\n@-webkit-keyframes open-panel-left {\n  from {\n    width: 0%; }\n  to {\n    width: 20%; } }\n\n@-moz-keyframes open-panel-left {\n  from {\n    width: 0%; }\n  to {\n    width: 20%; } }\n\n@-ms-keyframes open-panel-left {\n  from {\n    width: 0%; }\n  to {\n    width: 20%; } }\n\n@-o-keyframes open-panel-left {\n  from {\n    width: 0%; }\n  to {\n    width: 20%; } }\n\n@keyframes open-panel-left {\n  from {\n    width: 0%; }\n  to {\n    width: 20%; } }\n\n@-webkit-keyframes open-panel-right {\n  from {\n    width: 100%; }\n  to {\n    width: 80%; } }\n\n@-moz-keyframes open-panel-right {\n  from {\n    width: 100%; }\n  to {\n    width: 80%; } }\n\n@-ms-keyframes open-panel-right {\n  from {\n    width: 100%; }\n  to {\n    width: 80%; } }\n\n@-o-keyframes open-panel-right {\n  from {\n    width: 100%; }\n  to {\n    width: 80%; } }\n\n@keyframes open-panel-right {\n  from {\n    width: 100%; }\n  to {\n    width: 80%; } }\n\n@-webkit-keyframes slide-in-left {\n  0% {\n    left: -400px; }\n  25% {\n    left: -300px; }\n  50% {\n    left: -100px; }\n  75% {\n    left: -50px; }\n  100% {\n    left: 0px; } }\n\n@-moz-keyframes slide-in-left {\n  0% {\n    left: -400px; }\n  25% {\n    left: -300px; }\n  50% {\n    left: -100px; }\n  75% {\n    left: -50px; }\n  100% {\n    left: 0px; } }\n\n@-ms-keyframes slide-in-left {\n  0% {\n    left: -400px; }\n  25% {\n    left: -300px; }\n  50% {\n    left: -100px; }\n  75% {\n    left: -50px; }\n  100% {\n    left: 0px; } }\n\n@-o-keyframes slide-in-left {\n  0% {\n    left: -400px; }\n  25% {\n    left: -300px; }\n  50% {\n    left: -100px; }\n  75% {\n    left: -50px; }\n  100% {\n    left: 0px; } }\n\n@keyframes slide-in-left {\n  0% {\n    left: -400px; }\n  25% {\n    left: -300px; }\n  50% {\n    left: -100px; }\n  75% {\n    left: -50px; }\n  100% {\n    left: 0px; } }\n\n@-webkit-keyframes open-menu {\n  from {\n    height: 0px; }\n  to {\n    height: 120px; } }\n\n@-moz-keyframes open-menu {\n  from {\n    height: 0px; }\n  to {\n    height: 120px; } }\n\n@-ms-keyframes open-menu {\n  from {\n    height: 0px; }\n  to {\n    height: 120px; } }\n\n@-o-keyframes open-menu {\n  from {\n    height: 0px; }\n  to {\n    height: 120px; } }\n\n@keyframes open-menu {\n  from {\n    height: 0px; }\n  to {\n    height: 120px; } }\n\n@-webkit-keyframes slide-up {\n  0% {\n    bottom: -400px; }\n  25% {\n    bottom: -300px; }\n  50% {\n    bottom: -100px; }\n  75% {\n    bottom: -50px; }\n  100% {\n    bottom: 0px; } }\n\n@-moz-keyframes slide-up {\n  0% {\n    bottom: -400px; }\n  25% {\n    bottom: -300px; }\n  50% {\n    bottom: -100px; }\n  75% {\n    bottom: -50px; }\n  100% {\n    bottom: 0px; } }\n\n@-ms-keyframes slide-up {\n  0% {\n    bottom: -400px; }\n  25% {\n    bottom: -300px; }\n  50% {\n    bottom: -100px; }\n  75% {\n    bottom: -50px; }\n  100% {\n    bottom: 0px; } }\n\n@-o-keyframes slide-up {\n  0% {\n    bottom: -400px; }\n  25% {\n    bottom: -300px; }\n  50% {\n    bottom: -100px; }\n  75% {\n    bottom: -50px; }\n  100% {\n    bottom: 0px; } }\n\n@keyframes slide-up {\n  0% {\n    bottom: -400px; }\n  25% {\n    bottom: -300px; }\n  50% {\n    bottom: -100px; }\n  75% {\n    bottom: -50px; }\n  100% {\n    bottom: 0px; } }\n\n@-webkit-keyframes fliker {\n  0% {\n    opacity: .2; }\n  25% {\n    opacity: .5; }\n  50% {\n    opacity: 1; }\n  75% {\n    opacity: .5; }\n  100% {\n    opacity: .2; } }\n\n@-moz-keyframes fliker {\n  0% {\n    opacity: .2; }\n  25% {\n    opacity: .5; }\n  50% {\n    opacity: 1; }\n  75% {\n    opacity: .5; }\n  100% {\n    opacity: .2; } }\n\n@-ms-keyframes fliker {\n  0% {\n    opacity: .2; }\n  25% {\n    opacity: .5; }\n  50% {\n    opacity: 1; }\n  75% {\n    opacity: .5; }\n  100% {\n    opacity: .2; } }\n\n@-o-keyframes fliker {\n  0% {\n    opacity: .2; }\n  25% {\n    opacity: .5; }\n  50% {\n    opacity: 1; }\n  75% {\n    opacity: .5; }\n  100% {\n    opacity: .2; } }\n\n@keyframes fliker {\n  0% {\n    opacity: .2; }\n  25% {\n    opacity: .5; }\n  50% {\n    opacity: 1; }\n  75% {\n    opacity: .5; }\n  100% {\n    opacity: .2; } }\n\n@-webkit-keyframes fadeIn {\n  0% {\n    opacity: .0; }\n  10% {\n    opacity: .1; }\n  20% {\n    opacity: .2; }\n  30% {\n    opacity: .3; }\n  40% {\n    opacity: .4; }\n  50% {\n    opacity: .5; }\n  60% {\n    opacity: .6; }\n  70% {\n    opacity: .7; }\n  80% {\n    opacity: .8; }\n  90% {\n    opacity: .9; }\n  100% {\n    opacity: 1; } }\n\n@-moz-keyframes fadeIn {\n  0% {\n    opacity: .0; }\n  10% {\n    opacity: .1; }\n  20% {\n    opacity: .2; }\n  30% {\n    opacity: .3; }\n  40% {\n    opacity: .4; }\n  50% {\n    opacity: .5; }\n  60% {\n    opacity: .6; }\n  70% {\n    opacity: .7; }\n  80% {\n    opacity: .8; }\n  90% {\n    opacity: .9; }\n  100% {\n    opacity: 1; } }\n\n@-ms-keyframes fadeIn {\n  0% {\n    opacity: .0; }\n  10% {\n    opacity: .1; }\n  20% {\n    opacity: .2; }\n  30% {\n    opacity: .3; }\n  40% {\n    opacity: .4; }\n  50% {\n    opacity: .5; }\n  60% {\n    opacity: .6; }\n  70% {\n    opacity: .7; }\n  80% {\n    opacity: .8; }\n  90% {\n    opacity: .9; }\n  100% {\n    opacity: 1; } }\n\n@-o-keyframes fadeIn {\n  0% {\n    opacity: .0; }\n  10% {\n    opacity: .1; }\n  20% {\n    opacity: .2; }\n  30% {\n    opacity: .3; }\n  40% {\n    opacity: .4; }\n  50% {\n    opacity: .5; }\n  60% {\n    opacity: .6; }\n  70% {\n    opacity: .7; }\n  80% {\n    opacity: .8; }\n  90% {\n    opacity: .9; }\n  100% {\n    opacity: 1; } }\n\n@keyframes fadeIn {\n  0% {\n    opacity: .0; }\n  10% {\n    opacity: .1; }\n  20% {\n    opacity: .2; }\n  30% {\n    opacity: .3; }\n  40% {\n    opacity: .4; }\n  50% {\n    opacity: .5; }\n  60% {\n    opacity: .6; }\n  70% {\n    opacity: .7; }\n  80% {\n    opacity: .8; }\n  90% {\n    opacity: .9; }\n  100% {\n    opacity: 1; } }\n\nbody {\n  background-color: #21252B; }\n\n#app.dark {\n  background: #21252B;\n  border-color: black; }\n  #app.dark #sidebar {\n    color: #9DA5B4; }\n    #app.dark #sidebar a {\n      color: #9DA5B4; }\n    #app.dark #sidebar .nav-links .tree-level:hover {\n      background-color: #31363F;\n      color: #D7DAE0; }\n      #app.dark #sidebar .nav-links .tree-level:hover a {\n        color: #D7DAE0; }\n    #app.dark #sidebar .nav-links .files .active {\n      color: #e07f62; }\n      #app.dark #sidebar .nav-links .files .active div {\n        background-color: #31363F; }\n      #app.dark #sidebar .nav-links .files .active a {\n        color: #D7DAE0; }\n    #app.dark #sidebar .email-container .email-widget i, #app.dark #sidebar .email-container .email-widget p {\n      color: #9DA5B4; }\n    #app.dark #sidebar .email-container .email-widget:hover i {\n      color: #407ecf; }\n    #app.dark #sidebar .email-container .email-widget:hover p {\n      color: #f8f0e3; }\n  #app.dark #topbar {\n    color: #686F7B; }\n    #app.dark #topbar #top-nav .nav-links .tabs a.active .tab,\n    #app.dark #topbar #top-nav .nav-links .tabs a:hover .tab {\n      -webkit-box-shadow: inset 1px 1px 1px 0px rgba(255, 255, 255, 0.1);\n      -khtml-box-shadow: inset 1px 1px 1px 0px rgba(255, 255, 255, 0.1);\n      -moz-box-shadow: inset 1px 1px 1px 0px rgba(255, 255, 255, 0.1);\n      -ms-box-shadow: inset 1px 1px 1px 0px rgba(255, 255, 255, 0.1);\n      -o-box-shadow: inset 1px 1px 1px 0px rgba(255, 255, 255, 0.1);\n      box-shadow: inset 1px 1px 1px 0px rgba(255, 255, 255, 0.1);\n      border-image: none;\n      background-color: #282c34;\n      border-left-color: #00a9ea;\n      border-top-color: black;\n      color: #D7DAE0; }\n    #app.dark #topbar #top-nav .nav-links .tabs .tab {\n      border-color: black;\n      color: #686F7B; }\n  #app.dark #main {\n    background-color: #282c34;\n    color: #f8f0e3;\n    border-color: black; }\n    #app.dark #main h1 {\n      color: #d75c37;\n      -webkit-text-shadow: 0.5px 0.4px #e49077;\n      -khtml-text-shadow: 0.5px 0.4px #e49077;\n      -moz-text-shadow: 0.5px 0.4px #e49077;\n      -ms-text-shadow: 0.5px 0.4px #e49077;\n      -o-text-shadow: 0.5px 0.4px #e49077;\n      text-shadow: 0.5px 0.4px #e49077; }\n    #app.dark #main .content .header i {\n      color: #548cd4; }\n    #app.dark #main .about-container .header .fun-facts .title {\n      color: #548cd4;\n      font-weight: bold;\n      padding-right: 5px; }\n    #app.dark #main .about-container .header .fun-facts .dynamic-content {\n      color: #fdfbf7; }\n    #app.dark #main .work-container .body .projects .project .meta-container .title {\n      color: #e8a18c; }\n  #app.dark #footer .right-side .copy-right i {\n    color: #e07f62; }\n  #app.dark #footer .right-side .copy-right p {\n    color: #548cd4; }\n  #app.dark #skills .skills-container span {\n    color: #282c34;\n    -webkit-box-shadow: inset 0px 0.5px 2px 0px rgba(255, 255, 255, 0.3), inset 0px -0.5px 2px 0px rgba(255, 255, 255, 0.3);\n    -khtml-box-shadow: inset 0px 0.5px 2px 0px rgba(255, 255, 255, 0.3), inset 0px -0.5px 2px 0px rgba(255, 255, 255, 0.3);\n    -moz-box-shadow: inset 0px 0.5px 2px 0px rgba(255, 255, 255, 0.3), inset 0px -0.5px 2px 0px rgba(255, 255, 255, 0.3);\n    -ms-box-shadow: inset 0px 0.5px 2px 0px rgba(255, 255, 255, 0.3), inset 0px -0.5px 2px 0px rgba(255, 255, 255, 0.3);\n    -o-box-shadow: inset 0px 0.5px 2px 0px rgba(255, 255, 255, 0.3), inset 0px -0.5px 2px 0px rgba(255, 255, 255, 0.3);\n    box-shadow: inset 0px 0.5px 2px 0px rgba(255, 255, 255, 0.3), inset 0px -0.5px 2px 0px rgba(255, 255, 255, 0.3); }\n\n* {\n  box-sizing: border-box; }\n\nhtml, body {\n  margin: 0;\n  padding: 0;\n  font-family: 'Signika Negative', sans-serif;\n  font-size: 14px; }\n  html a, body a {\n    text-decoration: none; }\n  html #app, body #app {\n    overflow: hidden;\n    display: block;\n    position: absolute;\n    width: 100%;\n    height: 100vh; }\n    html #app .left-container,\n    html #app .right-container, body #app .left-container,\n    body #app .right-container {\n      display: inline-block;\n      position: relative;\n      height: 93vh;\n      -webkit-transition: all 0.3s ease-out 0s;\n      -khtml-transition: all 0.3s ease-out 0s;\n      -moz-transition: all 0.3s ease-out 0s;\n      -ms-transition: all 0.3s ease-out 0s;\n      -o-transition: all 0.3s ease-out 0s;\n      transition: all 0.3s ease-out 0s; }\n    html #app .left-container, body #app .left-container {\n      width: 0%;\n      float: left;\n      -webkit-animation: open-panel-left 0.3s 0.2s forwards;\n      -khtml-animation: open-panel-left 0.3s 0.2s forwards;\n      -moz-animation: open-panel-left 0.3s 0.2s forwards;\n      -ms-animation: open-panel-left 0.3s 0.2s forwards;\n      -o-animation: open-panel-left 0.3s 0.2s forwards;\n      animation: open-panel-left 0.3s 0.2s forwards; }\n    html #app .right-container, body #app .right-container {\n      width: 100%;\n      float: right;\n      -webkit-animation: open-panel-right 0.3s 0.2s forwards;\n      -khtml-animation: open-panel-right 0.3s 0.2s forwards;\n      -moz-animation: open-panel-right 0.3s 0.2s forwards;\n      -ms-animation: open-panel-right 0.3s 0.2s forwards;\n      -o-animation: open-panel-right 0.3s 0.2s forwards;\n      animation: open-panel-right 0.3s 0.2s forwards; }\n    html #app #social-icons a, body #app #social-icons a {\n      display: inline-block; }\n      html #app #social-icons a i, body #app #social-icons a i {\n        position: relative;\n        text-align: center;\n        color: #9DA5B4;\n        line-height: inherit;\n        filter: alpha(opacity=50);\n        -ms-filter: \"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)\";\n        -webkit-opacity: 0.5;\n        -khtml-opacity: 0.5;\n        -moz-opacity: 0.5;\n        -ms-opacity: 0.5;\n        -o-opacity: 0.5;\n        opacity: 0.5; }\n        html #app #social-icons a i:hover, body #app #social-icons a i:hover {\n          -webkit-transition: all 0.2s ease-in-out 0s;\n          -khtml-transition: all 0.2s ease-in-out 0s;\n          -moz-transition: all 0.2s ease-in-out 0s;\n          -ms-transition: all 0.2s ease-in-out 0s;\n          -o-transition: all 0.2s ease-in-out 0s;\n          transition: all 0.2s ease-in-out 0s;\n          filter: alpha(opacity=100);\n          -ms-filter: \"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)\";\n          -webkit-opacity: 1;\n          -khtml-opacity: 1;\n          -moz-opacity: 1;\n          -ms-opacity: 1;\n          -o-opacity: 1;\n          opacity: 1; }\n          html #app #social-icons a i:hover.twitter, body #app #social-icons a i:hover.twitter {\n            color: #55acee; }\n          html #app #social-icons a i:hover.linked-in, body #app #social-icons a i:hover.linked-in {\n            color: #0077b5; }\n          html #app #social-icons a i:hover.github, body #app #social-icons a i:hover.github {\n            color: #4183c4; }\n          html #app #social-icons a i:hover.website, body #app #social-icons a i:hover.website {\n            color: #94c873; }\n    @media only screen and (max-width: 720px) {\n      html #app .left-container, body #app .left-container {\n        width: 0%;\n        -webkit-animation: none;\n        -khtml-animation: none;\n        -moz-animation: none;\n        -ms-animation: none;\n        -o-animation: none;\n        animation: none; }\n        html #app .left-container .nav-links,\n        html #app .left-container .email-container, body #app .left-container .nav-links,\n        body #app .left-container .email-container {\n          -webkit-transform: translateX(-300px);\n          -khtml-transform: translateX(-300px);\n          -moz-transform: translateX(-300px);\n          -ms-transform: translateX(-300px);\n          -o-transform: translateX(-300px);\n          transform: translateX(-300px); }\n      html #app .right-container, body #app .right-container {\n        width: 100%;\n        -webkit-animation: none;\n        -khtml-animation: none;\n        -moz-animation: none;\n        -ms-animation: none;\n        -o-animation: none;\n        animation: none; } }\n    @media only screen and (min-width: 721px) and (max-width: 1023px) {\n      html #app .left-container, body #app .left-container {\n        width: 30% !important;\n        -webkit-animation: none;\n        -khtml-animation: none;\n        -moz-animation: none;\n        -ms-animation: none;\n        -o-animation: none;\n        animation: none; }\n      html #app .right-container, body #app .right-container {\n        width: 70% !important;\n        -webkit-animation: none;\n        -khtml-animation: none;\n        -moz-animation: none;\n        -ms-animation: none;\n        -o-animation: none;\n        animation: none; } }\n\n#sidebar {\n  position: relative;\n  display: block;\n  height: 100%; }\n  #sidebar #side-nav {\n    padding-top: 20px; }\n    #sidebar #side-nav a {\n      text-decoration: none; }\n    #sidebar #side-nav .nav-links .tree-level {\n      position: relative;\n      left: -400px;\n      display: block;\n      width: 100%;\n      padding-top: 5px;\n      padding-bottom: 5px; }\n      #sidebar #side-nav .nav-links .tree-level span {\n        display: inline-block;\n        font-size: 1.5em;\n        font-weight: bold;\n        font-family: 'Signika Negative', sans-serif;\n        margin: 0px; }\n      #sidebar #side-nav .nav-links .tree-level.first {\n        -webkit-animation: slide-in-left 0.2s 0.2s forwards;\n        -khtml-animation: slide-in-left 0.2s 0.2s forwards;\n        -moz-animation: slide-in-left 0.2s 0.2s forwards;\n        -ms-animation: slide-in-left 0.2s 0.2s forwards;\n        -o-animation: slide-in-left 0.2s 0.2s forwards;\n        animation: slide-in-left 0.2s 0.2s forwards;\n        padding-left: 5px; }\n      #sidebar #side-nav .nav-links .tree-level.second {\n        -webkit-animation: slide-in-left 0.2s 0.4s forwards;\n        -khtml-animation: slide-in-left 0.2s 0.4s forwards;\n        -moz-animation: slide-in-left 0.2s 0.4s forwards;\n        -ms-animation: slide-in-left 0.2s 0.4s forwards;\n        -o-animation: slide-in-left 0.2s 0.4s forwards;\n        animation: slide-in-left 0.2s 0.4s forwards;\n        padding-left: 25px; }\n      #sidebar #side-nav .nav-links .tree-level.third {\n        -webkit-animation: slide-in-left 0.2s 0.6s forwards;\n        -khtml-animation: slide-in-left 0.2s 0.6s forwards;\n        -moz-animation: slide-in-left 0.2s 0.6s forwards;\n        -ms-animation: slide-in-left 0.2s 0.6s forwards;\n        -o-animation: slide-in-left 0.2s 0.6s forwards;\n        animation: slide-in-left 0.2s 0.6s forwards;\n        padding-left: 45px; }\n      #sidebar #side-nav .nav-links .tree-level::before {\n        margin-right: 2px; }\n      #sidebar #side-nav .nav-links .tree-level .folder::before {\n        margin-right: 2px; }\n    #sidebar #side-nav .nav-links .files {\n      position: relative;\n      overflow: hidden; }\n      #sidebar #side-nav .nav-links .files div {\n        cursor: pointer; }\n  #sidebar .email-container {\n    position: absolute;\n    bottom: -500px;\n    width: 100%;\n    margin-bottom: 50px;\n    -webkit-animation: slide-up 0.3s 30s forwards;\n    -khtml-animation: slide-up 0.3s 30s forwards;\n    -moz-animation: slide-up 0.3s 30s forwards;\n    -ms-animation: slide-up 0.3s 30s forwards;\n    -o-animation: slide-up 0.3s 30s forwards;\n    animation: slide-up 0.3s 30s forwards; }\n    #sidebar .email-container .email-widget {\n      display: block;\n      width: 150px;\n      height: 60px;\n      margin: auto;\n      -webkit-animation: fliker 2s 29s 10;\n      -khtml-animation: fliker 2s 29s 10;\n      -moz-animation: fliker 2s 29s 10;\n      -ms-animation: fliker 2s 29s 10;\n      -o-animation: fliker 2s 29s 10;\n      animation: fliker 2s 29s 10; }\n      #sidebar .email-container .email-widget i {\n        width: inherit;\n        height: inherit;\n        font-size: 60px;\n        line-height: 65px;\n        text-align: center; }\n      #sidebar .email-container .email-widget p {\n        font-size: 1.3em;\n        margin-top: 5px;\n        text-align: center;\n        text-decoration: none;\n        font-weight: bolder; }\n      #sidebar .email-container .email-widget i, #sidebar .email-container .email-widget p {\n        -webkit-transition: all 0.2s ease-in-out 0s;\n        -khtml-transition: all 0.2s ease-in-out 0s;\n        -moz-transition: all 0.2s ease-in-out 0s;\n        -ms-transition: all 0.2s ease-in-out 0s;\n        -o-transition: all 0.2s ease-in-out 0s;\n        transition: all 0.2s ease-in-out 0s; }\n      #sidebar .email-container .email-widget:hover i, #sidebar .email-container .email-widget:hover p {\n        filter: alpha(opacity=100);\n        -ms-filter: \"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)\";\n        -webkit-opacity: 1;\n        -khtml-opacity: 1;\n        -moz-opacity: 1;\n        -ms-opacity: 1;\n        -o-opacity: 1;\n        opacity: 1; }\n\n#topbar {\n  height: 8vh; }\n  #topbar #top-nav .nav-links .tabs {\n    width: 100%;\n    display: flex;\n    font-size: 1.2em; }\n    #topbar #top-nav .nav-links .tabs a {\n      display: inline-block;\n      width: calc(25%); }\n      #topbar #top-nav .nav-links .tabs a.active .tab, #topbar #top-nav .nav-links .tabs a:hover .tab {\n        -webkit-border-radius: 4px 4px 0px 1px;\n        -khtml-border-radius: 4px 4px 0px 1px;\n        -moz-border-radius: 4px 4px 0px 1px;\n        -ms-border-radius: 4px 4px 0px 1px;\n        -o-border-radius: 4px 4px 0px 1px;\n        border-radius: 4px 4px 0px 1px;\n        border: solid;\n        border-left-width: 3px;\n        border-right-width: 1px;\n        border-top-width: 1px;\n        border-bottom: 0px;\n        -webkit-transition: all 0.2s ease-in-out 0s;\n        -khtml-transition: all 0.2s ease-in-out 0s;\n        -moz-transition: all 0.2s ease-in-out 0s;\n        -ms-transition: all 0.2s ease-in-out 0s;\n        -o-transition: all 0.2s ease-in-out 0s;\n        transition: all 0.2s ease-in-out 0s; }\n      #topbar #top-nav .nav-links .tabs a .tab {\n        height: 6vh;\n        margin-top: 2vh;\n        text-align: center;\n        line-height: 6vh;\n        text-decoration: none;\n        border-style: solid;\n        border-right-width: 1px;\n        border-left-width: 0px;\n        border-bottom-width: 1px;\n        border-top-width: 0px;\n        -webkit-transition: all 0.2s ease-in-out 0s;\n        -khtml-transition: all 0.2s ease-in-out 0s;\n        -moz-transition: all 0.2s ease-in-out 0s;\n        -ms-transition: all 0.2s ease-in-out 0s;\n        -o-transition: all 0.2s ease-in-out 0s;\n        transition: all 0.2s ease-in-out 0s; }\n\n#main {\n  font-family: 'Raleway', sans-serif;\n  letter-spacing: 1px;\n  display: block;\n  position: relative;\n  width: 100%;\n  height: 85vh;\n  border: 1px solid;\n  border-top: 0px;\n  border-bottom: 0px;\n  padding: 40px;\n  overflow: scroll; }\n  #main > div {\n    opacity: 0;\n    -webkit-animation: fadeIn 0.4s 0.2s forwards;\n    -khtml-animation: fadeIn 0.4s 0.2s forwards;\n    -moz-animation: fadeIn 0.4s 0.2s forwards;\n    -ms-animation: fadeIn 0.4s 0.2s forwards;\n    -o-animation: fadeIn 0.4s 0.2s forwards;\n    animation: fadeIn 0.4s 0.2s forwards; }\n  #main p {\n    font-weight: 400;\n    font-size: 1.1em; }\n  @media only screen and (max-width: 420px) {\n    #main {\n      padding: 20px; } }\n  #main .content {\n    max-width: 840px;\n    margin: auto; }\n    #main .content .header {\n      text-align: center; }\n      #main .content .header i {\n        font-size: 8em;\n        margin-bottom: 10px; }\n    @media only screen and (max-width: 420px) {\n      #main .content {\n        font-size: .9em; } }\n\n#footer {\n  position: relative;\n  clear: both;\n  border-top: 1px solid;\n  height: 7vh; }\n  #footer .left-side,\n  #footer .right-side {\n    display: inline-block;\n    width: calc(50% - 2px);\n    line-height: 7vh; }\n  #footer .left-side {\n    float: left;\n    padding-left: 15px;\n    height: inherit; }\n    #footer .left-side #social-icons a i {\n      font-size: 2em;\n      margin-right: 10px; }\n    @media only screen and (max-width: 720px) {\n      #footer .left-side #social-icons a i {\n        font-size: 1.5em; } }\n  #footer .right-side {\n    float: right;\n    padding-right: 15px; }\n    #footer .right-side div {\n      float: right; }\n    #footer .right-side .copy-right {\n      font-weight: lighter;\n      filter: alpha(opacity=80);\n      -ms-filter: \"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)\";\n      -webkit-opacity: 0.8;\n      -khtml-opacity: 0.8;\n      -moz-opacity: 0.8;\n      -ms-opacity: 0.8;\n      -o-opacity: 0.8;\n      opacity: 0.8; }\n      #footer .right-side .copy-right i {\n        font-size: 1.5em;\n        margin: 5px; }\n      #footer .right-side .copy-right p {\n        font-size: 1.2em;\n        display: inline-block;\n        margin: 0px; }\n      @media only screen and (max-width: 420px) {\n        #footer .right-side .copy-right {\n          font-size: .7em; } }\n\n.home-container {\n  width: 100%;\n  min-height: 100%;\n  display: flex;\n  flex-direction: column;\n  justify-content: center; }\n  .home-container .content {\n    max-width: 940px;\n    margin: auto;\n    text-align: center; }\n    .home-container .content .avatar {\n      display: block;\n      margin: auto;\n      width: 200px;\n      height: 200px;\n      border-radius: 50%;\n      box-shadow: 0px 5px 10px #21252B; }\n    .home-container .content div .greeting {\n      font-weight: 700;\n      font-size: 4em;\n      margin: 25px 0 5px;\n      color: #e9cfa6;\n      text-shadow: 0.5px 0.5px #fdfbf7; }\n    .home-container .content div .tag-line {\n      font-weight: 600;\n      font-size: 3em;\n      color: #d75c37;\n      margin-bottom: 20px;\n      text-shadow: 0.5px 0.5px #e8a18c; }\n    @media only screen and (max-width: 420px) {\n      .home-container .content div {\n        font-size: .8em; } }\n    .home-container .content #social-icons a i {\n      font-size: 3em;\n      margin-right: 10px;\n      margin-left: 10px; }\n    @media only screen and (max-width: 720px) {\n      .home-container .content #social-icons a i {\n        font-size: 2.5em; } }\n\n.about-container {\n  max-width: 840px;\n  margin: auto; }\n  .about-container .content .header .fun-facts {\n    line-height: 20px;\n    font-size: 1.2em;\n    font-weight: 600;\n    text-transform: uppercase; }\n    @media only screen and (max-width: 720px) {\n      .about-container .content .header .fun-facts {\n        font-size: 1em; } }\n  .about-container .content .body .who {\n    margin-bottom: 40px; }\n    .about-container .content .body .who p {\n      margin-left: 20px; }\n  .about-container .content .body .skills .tech-stack {\n    margin-left: 20px; }\n    .about-container .content .body .skills .tech-stack h3 {\n      margin-bottom: 5px; }\n    .about-container .content .body .skills .tech-stack div {\n      margin-bottom: 20px; }\n\n.work-container .content .body .projects {\n  margin-left: 10px; }\n  .work-container .content .body .projects .project {\n    margin-bottom: 5em; }\n    .work-container .content .body .projects .project .meta-container {\n      position: relative;\n      display: block;\n      overflow: hidden; }\n      .work-container .content .body .projects .project .meta-container .title,\n      .work-container .content .body .projects .project .meta-container .links {\n        display: inline-block;\n        width: 50%; }\n      .work-container .content .body .projects .project .meta-container .title {\n        float: left;\n        font-size: 1.5em;\n        font-weight: 700; }\n      .work-container .content .body .projects .project .meta-container .links {\n        float: right;\n        text-align: right; }\n        .work-container .content .body .projects .project .meta-container .links a {\n          margin-left: 5px;\n          margin-right: 5px; }\n          .work-container .content .body .projects .project .meta-container .links a i {\n            font-size: 1.5em; }\n    .work-container .content .body .projects .project .description {\n      display: block; }\n\n.contact-container {\n  font-family: 'Inconsolata', monospace;\n  width: 100%;\n  min-height: 100%;\n  display: flex;\n  flex-direction: column;\n  justify-content: center; }\n  .contact-container .content {\n    max-width: 940px;\n    margin: auto; }\n    .contact-container .content .form-container {\n      width: 100%; }\n      .contact-container .content .form-container form {\n        display: block;\n        width: 100%;\n        font-size: 1.2em;\n        margin-top: 20px; }\n        .contact-container .content .form-container form .tag-content {\n          color: #e97d82; }\n        .contact-container .content .form-container form .first-level {\n          padding-left: 5px;\n          margin-bottom: 10px; }\n        .contact-container .content .form-container form .second-level {\n          padding-left: 40px;\n          margin-bottom: 20px; }\n        .contact-container .content .form-container form .third-level {\n          padding-left: 25px;\n          width: 300px; }\n        .contact-container .content .form-container form input,\n        .contact-container .content .form-container form textarea {\n          background-color: #282c34;\n          border: none;\n          border-bottom: 2px #94c873 solid;\n          width: 100%;\n          color: #f8f0e3;\n          line-height: 25px;\n          border-radius: 2px; }\n          .contact-container .content .form-container form input:focus,\n          .contact-container .content .form-container form textarea:focus {\n            outline-color: #94c873; }\n        .contact-container .content .form-container form input[type=\"submit\"] {\n          width: 150px;\n          background-color: #e07f62;\n          float: right;\n          border-radius: 5px;\n          border: none;\n          cursor: pointer; }\n          .contact-container .content .form-container form input[type=\"submit\"]:focus {\n            outline: none; }\n", ""]);
 
 	// exports
 
@@ -21818,15 +21818,15 @@
 
 	var _About2 = _interopRequireDefault(_About);
 
-	var _Work = __webpack_require__(250);
+	var _Work = __webpack_require__(255);
 
 	var _Work2 = _interopRequireDefault(_Work);
 
-	var _Contact = __webpack_require__(251);
+	var _Contact = __webpack_require__(258);
 
 	var _Contact2 = _interopRequireDefault(_Contact);
 
-	var _Content = __webpack_require__(252);
+	var _Content = __webpack_require__(259);
 
 	var _Content2 = _interopRequireDefault(_Content);
 
@@ -27584,11 +27584,7 @@
 	          _react2.default.createElement(
 	            'div',
 	            { id: 'main' },
-	            _react2.default.createElement(
-	              'div',
-	              { className: 'content-container' },
-	              this.props.children
-	            )
+	            this.props.children
 	          )
 	        ),
 	        _react2.default.createElement(_Footer2.default, null)
@@ -27625,6 +27621,8 @@
 
 	var _SideNav2 = _interopRequireDefault(_SideNav);
 
+	var _reactRouter = __webpack_require__(177);
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -27653,13 +27651,13 @@
 	          'div',
 	          { className: 'email-container' },
 	          _react2.default.createElement(
-	            'a',
-	            { href: '/ ', className: 'email-widget' },
-	            _react2.default.createElement('i', { className: 'fa fa-envelope', 'aria-hidden': 'true' }),
+	            _reactRouter.Link,
+	            { to: '/contact', className: 'email-widget' },
+	            _react2.default.createElement('i', { className: 'fa fa-coffee', 'aria-hidden': 'true' }),
 	            _react2.default.createElement(
 	              'p',
 	              null,
-	              'Lets Talk!'
+	              'Lets Get a Drink!'
 	            )
 	          )
 	        )
@@ -27810,7 +27808,7 @@
 	        _react2.default.createElement(_NavLink2.default, { dest: '/', content: 'home.html', classAtts: classAtts }),
 	        _react2.default.createElement(_NavLink2.default, { dest: '/about', content: 'about.css', classAtts: classAtts }),
 	        _react2.default.createElement(_NavLink2.default, { dest: '/work', content: 'work.js', classAtts: classAtts }),
-	        _react2.default.createElement(_NavLink2.default, { dest: '/contact', content: 'contact.scss', classAtts: classAtts })
+	        _react2.default.createElement(_NavLink2.default, { dest: '/contact', content: 'contact.xml', classAtts: classAtts })
 	      );
 	    }
 	  }]);
@@ -28045,20 +28043,20 @@
 	    value: function render() {
 	      return _react2.default.createElement(
 	        "div",
-	        { className: "social-icons" },
+	        { id: "social-icons" },
 	        _react2.default.createElement(
 	          "a",
-	          { href: "/", target: "_blank" },
+	          { href: "https://github.com/dgiraldo313", target: "_blank" },
 	          _react2.default.createElement("i", { className: "fa fa-github github", "aria-hidden": "true" })
 	        ),
 	        _react2.default.createElement(
 	          "a",
-	          { href: "/", target: "_blank" },
+	          { href: "https://www.linkedin.com/in/danielgiraldo313", target: "_blank" },
 	          _react2.default.createElement("i", { className: "fa fa-linkedin linked-in", "aria-hidden": "true" })
 	        ),
 	        _react2.default.createElement(
 	          "a",
-	          { href: "/", target: "_blank" },
+	          { href: "https://twitter.com/dgiraldo313", target: "_blank" },
 	          _react2.default.createElement("i", { className: "fa fa-twitter twitter", "aria-hidden": "true" })
 	        )
 	      );
@@ -28118,24 +28116,38 @@
 	      console.log(content);
 	      return _react2.default.createElement(
 	        'div',
-	        null,
-	        _react2.default.createElement('img', { src: content.AvatarURL }),
+	        { className: 'home-container' },
 	        _react2.default.createElement(
 	          'div',
-	          null,
+	          { className: 'content' },
+	          _react2.default.createElement('img', { className: 'avatar', src: content.AvatarURL }),
 	          _react2.default.createElement(
 	            'div',
-	            { className: 'greeting' },
-	            content.greetings[0]
+	            null,
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'greeting' },
+	              this.randomGreeting()
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'tag-line' },
+	              content.description
+	            )
 	          ),
-	          _react2.default.createElement(
-	            'div',
-	            { className: 'tag-line' },
-	            content.description
-	          )
-	        ),
-	        _react2.default.createElement(_Social2.default, null)
+	          _react2.default.createElement(_Social2.default, null)
+	        )
 	      );
+	    }
+	    /* generate random greeting to display every time
+	        user visits the site */
+
+	  }, {
+	    key: 'randomGreeting',
+	    value: function randomGreeting() {
+	      var greetings = this.props.route.content.greetings;
+	      var randomNumber = Math.floor(Math.random() * greetings.length);
+	      return greetings[randomNumber];
 	    }
 	  }]);
 
@@ -28152,7 +28164,142 @@
 
 	/* REACT HOT LOADER */ if (false) { (function () { var ReactHotAPI = require("/Users/Daniel_Giraldo/Web Apps/random code/JS/Portfolio/node_modules/react-hot-loader/node_modules/react-hot-api/modules/index.js"), RootInstanceProvider = require("/Users/Daniel_Giraldo/Web Apps/random code/JS/Portfolio/node_modules/react-hot-loader/RootInstanceProvider.js"), ReactMount = require("react/lib/ReactMount"), React = require("react"); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
 
-	"use strict";
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _TechSkills = __webpack_require__(250);
+
+	var _TechSkills2 = _interopRequireDefault(_TechSkills);
+
+	var _FunFact = __webpack_require__(254);
+
+	var _FunFact2 = _interopRequireDefault(_FunFact);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var About = function (_Component) {
+	  _inherits(About, _Component);
+
+	  function About() {
+	    _classCallCheck(this, About);
+
+	    return _possibleConstructorReturn(this, (About.__proto__ || Object.getPrototypeOf(About)).apply(this, arguments));
+	  }
+
+	  _createClass(About, [{
+	    key: 'render',
+	    value: function render() {
+	      var content = this.props.route.content;
+	      return _react2.default.createElement(
+	        'div',
+	        { className: 'about-container' },
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'content' },
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'header' },
+	            _react2.default.createElement('i', { className: 'fa fa-user', 'aria-hidden': 'true' }),
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'fun-facts' },
+	              _react2.default.createElement(
+	                'span',
+	                { className: 'title' },
+	                'Fun Fact:'
+	              ),
+	              ' ',
+	              _react2.default.createElement(_FunFact2.default, { funFacts: content.funFacts })
+	            )
+	          ),
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'body' },
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'who' },
+	              _react2.default.createElement(
+	                'h1',
+	                null,
+	                'Who?'
+	              ),
+	              _react2.default.createElement(
+	                'p',
+	                null,
+	                content.description
+	              )
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'skills' },
+	              _react2.default.createElement(
+	                'h1',
+	                null,
+	                'What do you know?'
+	              ),
+	              _react2.default.createElement(
+	                'div',
+	                { className: 'tech-stack' },
+	                _react2.default.createElement(
+	                  'div',
+	                  { className: 'advanced' },
+	                  _react2.default.createElement(
+	                    'h3',
+	                    null,
+	                    'Advanced:'
+	                  ),
+	                  _react2.default.createElement(_TechSkills2.default, { skills: content.techStack.advanced,
+	                    key: 'adv' })
+	                ),
+	                _react2.default.createElement(
+	                  'div',
+	                  { className: 'intermediate' },
+	                  _react2.default.createElement(
+	                    'h3',
+	                    null,
+	                    'Intermediate:'
+	                  ),
+	                  _react2.default.createElement(_TechSkills2.default, { skills: content.techStack.intermediate,
+	                    key: 'int' })
+	                ),
+	                _react2.default.createElement(
+	                  'div',
+	                  { className: 'some-experience' },
+	                  _react2.default.createElement(
+	                    'h3',
+	                    null,
+	                    'Some Experience:'
+	                  ),
+	                  _react2.default.createElement(_TechSkills2.default, { skills: content.techStack.some,
+	                    key: 'some' })
+	                )
+	              )
+	            )
+	          )
+	        )
+	      );
+	    }
+	  }]);
+
+	  return About;
+	}(_react.Component);
+
+	exports.default = About;
 
 	/* REACT HOT LOADER */ }).call(this); } finally { if (false) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = require("/Users/Daniel_Giraldo/Web Apps/random code/JS/Portfolio/node_modules/react-hot-loader/makeExportsHot.js"); if (makeExportsHot(module, require("react"))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error("Cannot not apply hot update to " + "About.js" + ": " + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }
 
@@ -28162,9 +28309,79 @@
 
 	/* REACT HOT LOADER */ if (false) { (function () { var ReactHotAPI = require("/Users/Daniel_Giraldo/Web Apps/random code/JS/Portfolio/node_modules/react-hot-loader/node_modules/react-hot-api/modules/index.js"), RootInstanceProvider = require("/Users/Daniel_Giraldo/Web Apps/random code/JS/Portfolio/node_modules/react-hot-loader/RootInstanceProvider.js"), ReactMount = require("react/lib/ReactMount"), React = require("react"); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
 
-	"use strict";
+	'use strict';
 
-	/* REACT HOT LOADER */ }).call(this); } finally { if (false) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = require("/Users/Daniel_Giraldo/Web Apps/random code/JS/Portfolio/node_modules/react-hot-loader/makeExportsHot.js"); if (makeExportsHot(module, require("react"))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error("Cannot not apply hot update to " + "Work.js" + ": " + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _Skill = __webpack_require__(251);
+
+	var _Skill2 = _interopRequireDefault(_Skill);
+
+	__webpack_require__(252);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var TechSkills = function (_Component) {
+	  _inherits(TechSkills, _Component);
+
+	  function TechSkills() {
+	    _classCallCheck(this, TechSkills);
+
+	    return _possibleConstructorReturn(this, (TechSkills.__proto__ || Object.getPrototypeOf(TechSkills)).apply(this, arguments));
+	  }
+
+	  _createClass(TechSkills, [{
+	    key: 'render',
+	    value: function render() {
+	      return _react2.default.createElement(
+	        'div',
+	        { id: 'skills' },
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'skills-container' },
+	          this.get()
+	        )
+	      );
+	    }
+	  }, {
+	    key: 'get',
+	    value: function get() {
+	      var skills = this.props.skills;
+	      var numOfSkills = skills.length;
+
+	      // loop through list of skills
+	      var skillsHTML = skills.map(function (skill, index) {
+	        var skillHTML = _react2.default.createElement(_Skill2.default, { skill: skill,
+	          grid: numOfSkills,
+	          key: index });
+	        return skillHTML;
+	      });
+
+	      //return skills component
+	      return skillsHTML;
+	    }
+	  }]);
+
+	  return TechSkills;
+	}(_react.Component);
+
+	exports.default = TechSkills;
+
+	/* REACT HOT LOADER */ }).call(this); } finally { if (false) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = require("/Users/Daniel_Giraldo/Web Apps/random code/JS/Portfolio/node_modules/react-hot-loader/makeExportsHot.js"); if (makeExportsHot(module, require("react"))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error("Cannot not apply hot update to " + "TechSkills.js" + ": " + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }
 
 /***/ },
 /* 251 */
@@ -28172,12 +28389,682 @@
 
 	/* REACT HOT LOADER */ if (false) { (function () { var ReactHotAPI = require("/Users/Daniel_Giraldo/Web Apps/random code/JS/Portfolio/node_modules/react-hot-loader/node_modules/react-hot-api/modules/index.js"), RootInstanceProvider = require("/Users/Daniel_Giraldo/Web Apps/random code/JS/Portfolio/node_modules/react-hot-loader/RootInstanceProvider.js"), ReactMount = require("react/lib/ReactMount"), React = require("react"); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
 
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	                  value: true
+	});
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	var Skill = function Skill(props) {
+	                  return _react2.default.createElement(
+	                                    'span',
+	                                    { className: 'skill' + ' ' + props.skill + ' ' + 'grid-' + props.grid },
+	                                    props.skill
+	                  );
+	};
+
+	exports.default = Skill;
+
+	/* REACT HOT LOADER */ }).call(this); } finally { if (false) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = require("/Users/Daniel_Giraldo/Web Apps/random code/JS/Portfolio/node_modules/react-hot-loader/makeExportsHot.js"); if (makeExportsHot(module, require("react"))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error("Cannot not apply hot update to " + "Skill.js" + ": " + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }
+
+/***/ },
+/* 252 */
+/***/ function(module, exports, __webpack_require__) {
+
+	// style-loader: Adds some css to the DOM by adding a <style> tag
+
+	// load the styles
+	var content = __webpack_require__(253);
+	if(typeof content === 'string') content = [[module.id, content, '']];
+	// add the styles to the DOM
+	var update = __webpack_require__(175)(content, {});
+	if(content.locals) module.exports = content.locals;
+	// Hot Module Replacement
+	if(false) {
+		// When the styles change, update the <style> tags
+		if(!content.locals) {
+			module.hot.accept("!!./../../../node_modules/css-loader/index.js!./../../../node_modules/sass-loader/index.js!./skills.scss", function() {
+				var newContent = require("!!./../../../node_modules/css-loader/index.js!./../../../node_modules/sass-loader/index.js!./skills.scss");
+				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+				update(newContent);
+			});
+		}
+		// When the module is disposed, remove the <style> tags
+		module.hot.dispose(function() { update(); });
+	}
+
+/***/ },
+/* 253 */
+/***/ function(module, exports, __webpack_require__) {
+
+	exports = module.exports = __webpack_require__(174)();
+	// imports
+
+
+	// module
+	exports.push([module.id, "/**********************\nMedia Queries\n***********************/\n/**********************\nPrefixes\n***********************/\n/**********************\nBorder Radius\n***********************/\n/**********************\nOpacity\n***********************/\n/**********************\ntransition\n***********************/\n/**********************\nTransform\n***********************/\n/**********************\nKeyframes\n***********************/\n/**********************\nAnimation\n***********************/\n/**********************\nSkills Grid\n***********************/\n/**********************\nSkills Colors\n***********************/\n#skills .skills-container {\n  position: relative;\n  display: block;\n  width: 100%; }\n  #skills .skills-container span {\n    font-weight: bold;\n    text-transform: uppercase;\n    display: inline-block;\n    line-height: 15px;\n    text-align: center; }\n    #skills .skills-container span:nth-child(1) {\n      border-radius: 5px 0px 0px 5px; }\n    #skills .skills-container span:last-child {\n      border-radius: 0px 5px 5px 0px; }\n    #skills .skills-container span.js {\n      background-color: #c25975; }\n    #skills .skills-container span.html {\n      background-color: #f9845b; }\n    #skills .skills-container span.css {\n      background-color: #3079ab; }\n    #skills .skills-container span.sass {\n      background-color: #cd669a; }\n    #skills .skills-container span.jquery {\n      background-color: #f0db4f; }\n    #skills .skills-container span.wordpress {\n      background-color: #838cc7; }\n    #skills .skills-container span.git {\n      background-color: #ff9933; }\n    #skills .skills-container span.databases {\n      background-color: #eb7728; }\n    #skills .skills-container span.php {\n      background-color: #617cbe; }\n    #skills .skills-container span.react {\n      background-color: #53bbb4; }\n    #skills .skills-container span.node {\n      background-color: #7fbd42; }\n    #skills .skills-container span.ror {\n      background-color: #e15258; }\n    #skills .skills-container span.ruby {\n      background-color: #e15258; }\n    #skills .skills-container span.adobe {\n      background-color: #e59a13; }\n    #skills .skills-container span.python {\n      background-color: #f092b0; }\n    #skills .skills-container span.java {\n      background-color: #2c9676; }\n    #skills .skills-container span.api {\n      background-color: #9e4d83; }\n    @media only screen and (max-width: 420px) {\n      #skills .skills-container span:nth-child(1) {\n        border-radius: 5px 0px 0px 0px; }\n      #skills .skills-container span:nth-child(2) {\n        border-radius: 0px 5px 0px 0px; }\n      #skills .skills-container span:last-child {\n        border-radius: 0px 0px 5px 0px; }\n      #skills .skills-container span:nth-last-child(2) {\n        border-radius: 0px 0px 0px 5px; } }\n    @media only screen and (max-width: 1024px) {\n      #skills .skills-container span {\n        font-size: .8em; } }\n  #skills .skills-container .grid-1 {\n    width: calc(1/1 * 100%); }\n  @media only screen and (max-width: 420px) {\n    #skills .skills-container .grid-1 {\n      width: calc(1/2 * 100%); } }\n  #skills .skills-container .grid-2 {\n    width: calc(1/2 * 100%); }\n  @media only screen and (max-width: 420px) {\n    #skills .skills-container .grid-2 {\n      width: calc(1/2 * 100%); } }\n  #skills .skills-container .grid-3 {\n    width: calc(1/3 * 100%); }\n  @media only screen and (max-width: 420px) {\n    #skills .skills-container .grid-3 {\n      width: calc(1/2 * 100%); } }\n  #skills .skills-container .grid-4 {\n    width: calc(1/4 * 100%); }\n  @media only screen and (max-width: 420px) {\n    #skills .skills-container .grid-4 {\n      width: calc(1/2 * 100%); } }\n  #skills .skills-container .grid-5 {\n    width: calc(1/5 * 100%); }\n  @media only screen and (max-width: 420px) {\n    #skills .skills-container .grid-5 {\n      width: calc(1/2 * 100%); } }\n  #skills .skills-container .grid-6 {\n    width: calc(1/6 * 100%); }\n  @media only screen and (max-width: 420px) {\n    #skills .skills-container .grid-6 {\n      width: calc(1/2 * 100%); } }\n  #skills .skills-container .grid-7 {\n    width: calc(1/7 * 100%); }\n  @media only screen and (max-width: 420px) {\n    #skills .skills-container .grid-7 {\n      width: calc(1/2 * 100%); } }\n  #skills .skills-container .grid-8 {\n    width: calc(1/8 * 100%); }\n  @media only screen and (max-width: 420px) {\n    #skills .skills-container .grid-8 {\n      width: calc(1/2 * 100%); } }\n  #skills .skills-container .grid-9 {\n    width: calc(1/9 * 100%); }\n  @media only screen and (max-width: 420px) {\n    #skills .skills-container .grid-9 {\n      width: calc(1/2 * 100%); } }\n  #skills .skills-container .grid-10 {\n    width: calc(1/10 * 100%); }\n  @media only screen and (max-width: 420px) {\n    #skills .skills-container .grid-10 {\n      width: calc(1/2 * 100%); } }\n", ""]);
+
+	// exports
+
+
+/***/ },
+/* 254 */
+/***/ function(module, exports, __webpack_require__) {
+
+	/* REACT HOT LOADER */ if (false) { (function () { var ReactHotAPI = require("/Users/Daniel_Giraldo/Web Apps/random code/JS/Portfolio/node_modules/react-hot-loader/node_modules/react-hot-api/modules/index.js"), RootInstanceProvider = require("/Users/Daniel_Giraldo/Web Apps/random code/JS/Portfolio/node_modules/react-hot-loader/RootInstanceProvider.js"), ReactMount = require("react/lib/ReactMount"), React = require("react"); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
+
 	"use strict";
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var FunFact = function (_Component) {
+	  _inherits(FunFact, _Component);
+
+	  function FunFact(props) {
+	    _classCallCheck(this, FunFact);
+
+	    // console.log(this.props.funFacts);
+	    var _this = _possibleConstructorReturn(this, (FunFact.__proto__ || Object.getPrototypeOf(FunFact)).call(this, props));
+
+	    _this.state = {
+	      funFact: _this.get()
+	    };
+	    return _this;
+	  }
+
+	  _createClass(FunFact, [{
+	    key: "componentDidMount",
+	    value: function componentDidMount() {
+	      var _this2 = this;
+
+	      this.timerID = setInterval(function () {
+	        return _this2.update();
+	      }, 1000 * 15);
+	    }
+	  }, {
+	    key: "componentWillUnmount",
+	    value: function componentWillUnmount() {
+	      clearInterval(this.timerID);
+	    }
+	  }, {
+	    key: "update",
+	    value: function update() {
+	      this.setState({
+	        funFact: this.get()
+	      });
+	    }
+	  }, {
+	    key: "get",
+	    value: function get() {
+	      var funFacts = this.props.funFacts;
+	      var funFact = funFacts[Math.floor(Math.random() * funFacts.length)];
+	      return funFact;
+	    }
+	  }, {
+	    key: "render",
+	    value: function render() {
+	      return _react2.default.createElement(
+	        "span",
+	        { className: "dynamic-content" },
+	        " ",
+	        this.state.funFact,
+	        " "
+	      );
+	    }
+	  }]);
+
+	  return FunFact;
+	}(_react.Component);
+
+	exports.default = FunFact;
+
+	/* REACT HOT LOADER */ }).call(this); } finally { if (false) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = require("/Users/Daniel_Giraldo/Web Apps/random code/JS/Portfolio/node_modules/react-hot-loader/makeExportsHot.js"); if (makeExportsHot(module, require("react"))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error("Cannot not apply hot update to " + "FunFact.js" + ": " + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }
+
+/***/ },
+/* 255 */
+/***/ function(module, exports, __webpack_require__) {
+
+	/* REACT HOT LOADER */ if (false) { (function () { var ReactHotAPI = require("/Users/Daniel_Giraldo/Web Apps/random code/JS/Portfolio/node_modules/react-hot-loader/node_modules/react-hot-api/modules/index.js"), RootInstanceProvider = require("/Users/Daniel_Giraldo/Web Apps/random code/JS/Portfolio/node_modules/react-hot-loader/RootInstanceProvider.js"), ReactMount = require("react/lib/ReactMount"), React = require("react"); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _Projects = __webpack_require__(256);
+
+	var _Projects2 = _interopRequireDefault(_Projects);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var Work = function (_Component) {
+	  _inherits(Work, _Component);
+
+	  function Work() {
+	    _classCallCheck(this, Work);
+
+	    return _possibleConstructorReturn(this, (Work.__proto__ || Object.getPrototypeOf(Work)).apply(this, arguments));
+	  }
+
+	  _createClass(Work, [{
+	    key: 'render',
+	    value: function render() {
+	      var content = this.props.route.content;
+	      return _react2.default.createElement(
+	        'div',
+	        { className: 'work-container' },
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'content' },
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'header' },
+	            _react2.default.createElement('i', { className: 'fa fa-code', 'aria-hidden': 'true' })
+	          ),
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'body' },
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'projects-container' },
+	              _react2.default.createElement(
+	                'h1',
+	                null,
+	                'Personal Projects:'
+	              ),
+	              _react2.default.createElement(_Projects2.default, { projects: content.projects, key: 'projects' })
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'freelance-container' },
+	              _react2.default.createElement(
+	                'h1',
+	                null,
+	                'Freelance Work:'
+	              ),
+	              _react2.default.createElement(_Projects2.default, { projects: content.freelance, key: 'freelance' })
+	            )
+	          )
+	        )
+	      );
+	    }
+	  }]);
+
+	  return Work;
+	}(_react.Component);
+
+	exports.default = Work;
+
+	/* REACT HOT LOADER */ }).call(this); } finally { if (false) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = require("/Users/Daniel_Giraldo/Web Apps/random code/JS/Portfolio/node_modules/react-hot-loader/makeExportsHot.js"); if (makeExportsHot(module, require("react"))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error("Cannot not apply hot update to " + "Work.js" + ": " + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }
+
+/***/ },
+/* 256 */
+/***/ function(module, exports, __webpack_require__) {
+
+	/* REACT HOT LOADER */ if (false) { (function () { var ReactHotAPI = require("/Users/Daniel_Giraldo/Web Apps/random code/JS/Portfolio/node_modules/react-hot-loader/node_modules/react-hot-api/modules/index.js"), RootInstanceProvider = require("/Users/Daniel_Giraldo/Web Apps/random code/JS/Portfolio/node_modules/react-hot-loader/RootInstanceProvider.js"), ReactMount = require("react/lib/ReactMount"), React = require("react"); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _Project = __webpack_require__(257);
+
+	var _Project2 = _interopRequireDefault(_Project);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	// import '../../../sass/inc/skills.scss';
+
+	var Projects = function (_Component) {
+	  _inherits(Projects, _Component);
+
+	  function Projects() {
+	    _classCallCheck(this, Projects);
+
+	    return _possibleConstructorReturn(this, (Projects.__proto__ || Object.getPrototypeOf(Projects)).apply(this, arguments));
+	  }
+
+	  _createClass(Projects, [{
+	    key: 'render',
+	    value: function render() {
+	      return _react2.default.createElement(
+	        'div',
+	        { className: 'projects' },
+	        this.get()
+	      );
+	    }
+	  }, {
+	    key: 'get',
+	    value: function get() {
+	      var projects = this.props.projects;
+
+	      //loop through list of projects
+	      var projectsHTML = projects.map(function (project, index) {
+	        var projectHTML = _react2.default.createElement(_Project2.default, { project: project,
+	          key: index });
+
+	        // return each project component
+	        return projectHTML;
+	      });
+
+	      // return all the project components
+	      return projectsHTML;
+	    }
+	  }]);
+
+	  return Projects;
+	}(_react.Component);
+
+	exports.default = Projects;
+
+	/* REACT HOT LOADER */ }).call(this); } finally { if (false) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = require("/Users/Daniel_Giraldo/Web Apps/random code/JS/Portfolio/node_modules/react-hot-loader/makeExportsHot.js"); if (makeExportsHot(module, require("react"))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error("Cannot not apply hot update to " + "Projects.js" + ": " + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }
+
+/***/ },
+/* 257 */
+/***/ function(module, exports, __webpack_require__) {
+
+	/* REACT HOT LOADER */ if (false) { (function () { var ReactHotAPI = require("/Users/Daniel_Giraldo/Web Apps/random code/JS/Portfolio/node_modules/react-hot-loader/node_modules/react-hot-api/modules/index.js"), RootInstanceProvider = require("/Users/Daniel_Giraldo/Web Apps/random code/JS/Portfolio/node_modules/react-hot-loader/RootInstanceProvider.js"), ReactMount = require("react/lib/ReactMount"), React = require("react"); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _TechSkills = __webpack_require__(250);
+
+	var _TechSkills2 = _interopRequireDefault(_TechSkills);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var Project = function (_Component) {
+	  _inherits(Project, _Component);
+
+	  function Project() {
+	    _classCallCheck(this, Project);
+
+	    return _possibleConstructorReturn(this, (Project.__proto__ || Object.getPrototypeOf(Project)).apply(this, arguments));
+	  }
+
+	  _createClass(Project, [{
+	    key: 'render',
+	    value: function render() {
+	      return _react2.default.createElement(
+	        'div',
+	        { className: 'project' },
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'meta-container' },
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'title' },
+	            this.props.project.title
+	          ),
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'links' },
+	            this.getLinks()
+	          )
+	        ),
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'description' },
+	          _react2.default.createElement(
+	            'p',
+	            null,
+	            this.props.project.description
+	          )
+	        ),
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'tech-stack' },
+	          _react2.default.createElement(_TechSkills2.default, { skills: this.props.project.techStack })
+	        )
+	      );
+	    }
+	  }, {
+	    key: 'getLinks',
+	    value: function getLinks() {
+	      var availableLinks = "";
+	      var websiteLink = this.props.project.links.website ? _react2.default.createElement(
+	        'a',
+	        { href: this.props.project.links.website, target: '_blank' },
+	        _react2.default.createElement('i', { className: 'fa fa-globe website', 'aria-hidden': 'true' })
+	      ) : " ";
+	      var githubLink = this.props.project.links.github ? _react2.default.createElement(
+	        'a',
+	        { href: this.props.project.links.github, target: '_blank' },
+	        _react2.default.createElement('i', { className: 'fa fa-github github', 'aria-hidden': 'true' })
+	      ) : " ";
+
+	      return _react2.default.createElement(
+	        'div',
+	        { id: 'social-icons' },
+	        websiteLink,
+	        githubLink
+	      );
+	    }
+	  }]);
+
+	  return Project;
+	}(_react.Component);
+
+	exports.default = Project;
+
+	/* REACT HOT LOADER */ }).call(this); } finally { if (false) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = require("/Users/Daniel_Giraldo/Web Apps/random code/JS/Portfolio/node_modules/react-hot-loader/makeExportsHot.js"); if (makeExportsHot(module, require("react"))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error("Cannot not apply hot update to " + "Project.js" + ": " + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }
+
+/***/ },
+/* 258 */
+/***/ function(module, exports, __webpack_require__) {
+
+	/* REACT HOT LOADER */ if (false) { (function () { var ReactHotAPI = require("/Users/Daniel_Giraldo/Web Apps/random code/JS/Portfolio/node_modules/react-hot-loader/node_modules/react-hot-api/modules/index.js"), RootInstanceProvider = require("/Users/Daniel_Giraldo/Web Apps/random code/JS/Portfolio/node_modules/react-hot-loader/RootInstanceProvider.js"), ReactMount = require("react/lib/ReactMount"), React = require("react"); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
+
+	"use strict";
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var Contact = function (_Component) {
+	  _inherits(Contact, _Component);
+
+	  function Contact() {
+	    _classCallCheck(this, Contact);
+
+	    return _possibleConstructorReturn(this, (Contact.__proto__ || Object.getPrototypeOf(Contact)).apply(this, arguments));
+	  }
+
+	  _createClass(Contact, [{
+	    key: "render",
+	    value: function render() {
+	      return _react2.default.createElement(
+	        "div",
+	        { className: "contact-container" },
+	        _react2.default.createElement(
+	          "div",
+	          { className: "content" },
+	          _react2.default.createElement(
+	            "div",
+	            { className: "header" },
+	            _react2.default.createElement("i", { className: "fa fa-envelope", "aria-hidden": "true" })
+	          ),
+	          _react2.default.createElement(
+	            "div",
+	            { className: "form-container" },
+	            _react2.default.createElement(
+	              "form",
+	              { action: "https://formspree.io/dgiraldo@drew.edu", method: "POST" },
+	              _react2.default.createElement(
+	                "div",
+	                { className: "first-level" },
+	                _react2.default.createElement(
+	                  "span",
+	                  { className: "open-tag" },
+	                  "<"
+	                ),
+	                _react2.default.createElement(
+	                  "span",
+	                  { className: "tag-content" },
+	                  "Contact_Form"
+	                ),
+	                _react2.default.createElement(
+	                  "span",
+	                  { className: "close-tag" },
+	                  ">"
+	                )
+	              ),
+	              _react2.default.createElement(
+	                "div",
+	                { className: "second-level" },
+	                _react2.default.createElement(
+	                  "div",
+	                  null,
+	                  _react2.default.createElement(
+	                    "span",
+	                    { className: "open-tag" },
+	                    "<"
+	                  ),
+	                  _react2.default.createElement(
+	                    "span",
+	                    { className: "tag-content" },
+	                    "Name"
+	                  ),
+	                  _react2.default.createElement(
+	                    "span",
+	                    { className: "close-tag" },
+	                    ">"
+	                  )
+	                ),
+	                _react2.default.createElement(
+	                  "div",
+	                  { className: "third-level" },
+	                  _react2.default.createElement("input", { type: "text", name: "name", placeholder: "What's your name?", required: true })
+	                ),
+	                _react2.default.createElement(
+	                  "div",
+	                  null,
+	                  _react2.default.createElement(
+	                    "span",
+	                    { className: "open-tag" },
+	                    "</"
+	                  ),
+	                  _react2.default.createElement(
+	                    "span",
+	                    { className: "tag-content" },
+	                    "Name"
+	                  ),
+	                  _react2.default.createElement(
+	                    "span",
+	                    { className: "close-tag" },
+	                    ">"
+	                  )
+	                )
+	              ),
+	              _react2.default.createElement(
+	                "div",
+	                { className: "second-level" },
+	                _react2.default.createElement(
+	                  "div",
+	                  null,
+	                  _react2.default.createElement(
+	                    "span",
+	                    { className: "open-tag" },
+	                    "<"
+	                  ),
+	                  _react2.default.createElement(
+	                    "span",
+	                    { className: "tag-content" },
+	                    "Email"
+	                  ),
+	                  _react2.default.createElement(
+	                    "span",
+	                    { className: "close-tag" },
+	                    ">"
+	                  )
+	                ),
+	                _react2.default.createElement(
+	                  "div",
+	                  { className: "third-level" },
+	                  _react2.default.createElement("input", { type: "email", name: "_replyto", placeholder: "What about your email?", required: true })
+	                ),
+	                _react2.default.createElement(
+	                  "div",
+	                  null,
+	                  _react2.default.createElement(
+	                    "span",
+	                    { className: "open-tag" },
+	                    "</"
+	                  ),
+	                  _react2.default.createElement(
+	                    "span",
+	                    { className: "tag-content" },
+	                    "Email"
+	                  ),
+	                  _react2.default.createElement(
+	                    "span",
+	                    { className: "close-tag" },
+	                    ">"
+	                  )
+	                )
+	              ),
+	              _react2.default.createElement(
+	                "div",
+	                { className: "second-level" },
+	                _react2.default.createElement(
+	                  "div",
+	                  null,
+	                  _react2.default.createElement(
+	                    "span",
+	                    { className: "open-tag" },
+	                    "<"
+	                  ),
+	                  _react2.default.createElement(
+	                    "span",
+	                    { className: "tag-content" },
+	                    "Message"
+	                  ),
+	                  _react2.default.createElement(
+	                    "span",
+	                    { className: "close-tag" },
+	                    ">"
+	                  )
+	                ),
+	                _react2.default.createElement(
+	                  "div",
+	                  { className: "third-level" },
+	                  _react2.default.createElement("textarea", { type: "text", name: "message", placeholder: "What's up?", required: true })
+	                ),
+	                _react2.default.createElement(
+	                  "div",
+	                  null,
+	                  _react2.default.createElement(
+	                    "span",
+	                    { className: "open-tag" },
+	                    "</"
+	                  ),
+	                  _react2.default.createElement(
+	                    "span",
+	                    { className: "tag-content" },
+	                    "Message"
+	                  ),
+	                  _react2.default.createElement(
+	                    "span",
+	                    { className: "close-tag" },
+	                    ">"
+	                  )
+	                )
+	              ),
+	              _react2.default.createElement(
+	                "div",
+	                { className: "first-level" },
+	                _react2.default.createElement(
+	                  "span",
+	                  { className: "open-tag" },
+	                  "</"
+	                ),
+	                _react2.default.createElement(
+	                  "span",
+	                  { className: "tag-content" },
+	                  "Contact_Form"
+	                ),
+	                _react2.default.createElement(
+	                  "span",
+	                  { className: "close-tag" },
+	                  ">"
+	                )
+	              ),
+	              _react2.default.createElement("input", { type: "submit", value: "Send" })
+	            )
+	          )
+	        )
+	      );
+	    }
+	  }]);
+
+	  return Contact;
+	}(_react.Component);
+
+	exports.default = Contact;
 
 	/* REACT HOT LOADER */ }).call(this); } finally { if (false) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = require("/Users/Daniel_Giraldo/Web Apps/random code/JS/Portfolio/node_modules/react-hot-loader/makeExportsHot.js"); if (makeExportsHot(module, require("react"))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error("Cannot not apply hot update to " + "Contact.js" + ": " + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }
 
 /***/ },
-/* 252 */
+/* 259 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* REACT HOT LOADER */ if (false) { (function () { var ReactHotAPI = require("/Users/Daniel_Giraldo/Web Apps/random code/JS/Portfolio/node_modules/react-hot-loader/node_modules/react-hot-api/modules/index.js"), RootInstanceProvider = require("/Users/Daniel_Giraldo/Web Apps/random code/JS/Portfolio/node_modules/react-hot-loader/RootInstanceProvider.js"), ReactMount = require("react/lib/ReactMount"), React = require("react"); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
@@ -28190,11 +29077,17 @@
 	var Content = {
 	  home: {
 	    AvatarURL: './src/images/Avatar.png',
-	    greetings: ['Hey There!', 'Hello!', 'What&#8217;s Up', 'How is it going?', 'How ya doing?', 'Hi!'],
-	    description: 'I&#8217;m Danny. Frontend Developer'
+	    greetings: ['Hey There!', 'Hello!', 'What’s Up!?', 'How is it going?', 'How ya doing?', 'Hi!'],
+	    description: 'I’m Danny. Frontend Developer.'
 	  },
 	  about: {
-	    funFacts: ['Soccer Player/Aficionado', 'U10 Soccer Coach', 'Huge HIYM Fan', 'Love to Travel', 'Love Italian Food', 'Favorite Soccer Team: FC Barcelona', 'Currently Reading: The Alchemist(Spanish Version)']
+	    funFacts: ['Soccer Player/Aficionado', 'U10 Soccer Coach', 'Huge HIYM Fan', 'Love to Travel', 'Love Italian Food', 'Favorite Soccer Team - FC Barcelona', 'Currently Reading The Alchemist(Spanish Version)', 'Currently Watching Game of Thrones'],
+	    description: 'My name is Daniel Giraldo, but people call me Danny G. I’m a Frontend developer who is eager to break into the industry. I consider myself a creator and that is why I’m very excited to have the opportunity join a team that’s going to challenge me everyday and help me bring my skills to the next level. Apart from Frontend Development, I also have a huge passion for the game of soccer. Since my days as a competitive athlete are over, I recently decided to integrate this passion I have for soccer into my lifestyle and as a result I started coaching U10 team. I’m loving it!',
+	    techStack: {
+	      advanced: ['js', 'html', 'css', 'sass', 'jquery', 'wordpress'],
+	      intermediate: ['react', 'node', 'ror', 'adobe suite'],
+	      some: ['ruby', 'php', 'python', 'java']
+	    }
 
 	  },
 	  work: {
@@ -28204,8 +29097,8 @@
 	        website: 'http://danielgiraldo.com/',
 	        github: 'https://github.com/dgiraldo313/dgiraldo313.github.io'
 	      },
-	      description: 'Website you are currently on! After exploring many personal websites online I was inspired to revamp my existing personal website into a more interactive one to provide a better user experience. When coming up with the design, I came up with the idea to replicate the design of my favorite text editor (Atom) and so, I did! Website also dynamically changes greetings, as well as fun facts in the about page.',
-	      techStack: ['react', 'scss', 'html']
+	      description: 'Website you are currently on! After exploring many personal websites online I was inspired to revamp my existing personal website into a more interactive one to give the user a better experience. When coming up with the design, I came up with the idea to replicate the design of my favorite text editor (Atom) and so, I did! Website also dynamically changes greetings, as well as fun facts in the about page.',
+	      techStack: ['react', 'jquery', 'sass', 'html']
 	    }, {
 	      title: 'NextMatch',
 	      links: {
@@ -28213,7 +29106,7 @@
 	        github: 'https://github.com/dgiraldo313/nextMatch'
 	      },
 	      description: 'NextMatch is a web app that lets you find out when/who your favorite soccer team is playing next or show you live scores if the match is currently being played. It even lets you set up a reminder, so that you can get a text before the match starts.',
-	      techStack: ['node', 'js', 'jquery', 'scss', 'html', 'api', 'mongodb']
+	      techStack: ['node', 'jquery', 'sass', 'html', 'api', 'databases']
 	    }, {
 	      title: 'DrewLab',
 	      links: {
@@ -28221,7 +29114,7 @@
 	        github: 'https://github.com/dgiraldo313/RAR_WebApp'
 	      },
 	      description: 'DrewLab is a custom web application built for the Economics Department at Drew University. The research platform a platform consists of a series of games rooted in measuring risk aversion ranging from a balloon that fills with cash to a Deal or No Deal style game. DrewLab will live on at Drew to encourage further collaboration between Drew&#8217;s Economics and Computer Science students to create new games and expand the platform for years to come. Give it a try- Use PIN 1234 to access the app!',
-	      techStack: ['ruby', 'html', 'js', 'jquery', 'scss', 'html', 'mysql']
+	      techStack: ['ror', 'html', 'js', 'sass']
 	    }, {
 	      title: 'Web Mashup',
 	      links: {
@@ -28229,7 +29122,7 @@
 	        github: 'https://github.com/dgiraldo313/web_mashup'
 	      },
 	      description: 'Web Mashup is an API that integrates into the Drew University Library search results page to provide users with links to PDFs from outside resources.',
-	      techStack: ['ruby', 'rails', 'html', 'scss', 'api']
+	      techStack: ['ror', 'html', 'sass', 'api']
 	    }, {
 	      title: 'Jacked Up',
 	      links: {
@@ -28237,23 +29130,32 @@
 	        github: 'https://github.com/dgiraldo313/web_mashup'
 	      },
 	      description: 'Workout application that uses a deck of cards to randomly select exercises for the user to perform.(Currently rebuilding app with React.js)',
-	      techStack: ['ruby', 'rails', 'html', 'css', 'js']
+	      techStack: ['ror', 'html', 'css', 'js']
 	    }],
 
 	    freelance: [{
 	      title: 'W4 Promotions',
-	      link: 'http://w4promotions.com/',
+	      links: {
+	        website: 'http://w4promotions.com/',
+	        github: 0
+	      },
 	      description: 'Designed and developed a brand new website to help them carry out their newest marketing campaign. After I was done with this project I moved on to developing a custom Portal where clients can upload large sized zip files, directly to W4 Promotions DropBox account.',
-	      techStack: ['wordpress', 'php', 'js', 'jquery', 'scss']
+	      techStack: ['wordpress', 'php', 'jquery', 'sass']
 	    }, {
 	      title: 'Cranford Soccer Club',
-	      link: 'https://cranfordsoccer.com/',
-	      description: 'Worked closely with a soccer club to build a blog like website to help them keep the parents informed. The goal was to move away from emailing and instead have all information available in one location. Worked on theme and plugin development to provide a better user experience.',
-	      techStack: ['wordpress', 'php', 'js', 'jquery', 'scss']
+	      links: {
+	        website: 'https://cranfordsoccer.com/',
+	        github: 0
+	      },
+	      description: 'Worked closely with a soccer club to build a blog like website to help them keep parents informed. The goal was to move away from emailing and instead have all information available in one location. Worked on theme and plugin development to provide a better user experience.',
+	      techStack: ['wordpress', 'php', 'jquery', 'sass']
 
 	    }, {
 	      title: 'Positive Publications',
-	      link: 'http://www.positivepublications.us/',
+	      links: {
+	        website: 'http://www.positivepublications.us/',
+	        github: 0
+	      },
 	      description: 'First Website I ever built! Developed and deployed a static, mobile responsive website to help client display portfolio as well as provided services.',
 	      techStack: ['html', 'css', 'js', 'jquery']
 

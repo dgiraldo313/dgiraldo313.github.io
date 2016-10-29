@@ -2,20 +2,97 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Daniel Giraldo - Portfolio</title>
-    <!-- <link href="https://fonts.googleapis.com/icon?family=Roboto:400,700" rel="stylesheet"> -->
-    <!-- <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet"> -->
-    <!-- <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet"> -->
-    <!--  -->
-    <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Signika+Negative" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700,900" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+    <style>
+      #root{
+        position: relative;
+        display: block;
+        width: 100%;
+        height: 100vh;
+      }
+      #loaderImage{
+        margin: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: -35px;
+        margin-left: -35px;
+      }
+    </style>
   </head>
   <body>
     <div id="root">
-      <div id="loading">Loading...</div>
+      <div id="loaderImage"></div>
+      <script type="text/javascript">
+      	var cSpeed=15;
+      	var cWidth=70;
+      	var cHeight=70;
+      	var cTotalFrames=12;
+      	var cFrameWidth=70;
+      	var cImageSrc='./src/images/loader.gif';
+
+      	var cImageTimeout=false;
+      	var cIndex=0;
+      	var cXpos=0;
+      	var cPreloaderTimeout=false;
+      	var SECONDS_BETWEEN_FRAMES=0;
+
+      	function startAnimation(){
+
+      		document.getElementById('loaderImage').style.backgroundImage='url('+cImageSrc+')';
+      		document.getElementById('loaderImage').style.width=cWidth+'px';
+      		document.getElementById('loaderImage').style.height=cHeight+'px';
+
+      		//FPS = Math.round(100/(maxSpeed+2-speed));
+      		FPS = Math.round(100/cSpeed);
+      		SECONDS_BETWEEN_FRAMES = 1 / FPS;
+
+      		cPreloaderTimeout=setTimeout('continueAnimation()', SECONDS_BETWEEN_FRAMES/1000);
+
+      	}
+
+      	function continueAnimation(){
+
+      		cXpos += cFrameWidth;
+      		//increase the index so we know which frame of our animation we are currently on
+      		cIndex += 1;
+
+      		//if our cIndex is higher than our total number of frames, we're at the end and should restart
+      		if (cIndex >= cTotalFrames) {
+      			cXpos =0;
+      			cIndex=0;
+      		}
+
+      		if(document.getElementById('loaderImage'))
+      			document.getElementById('loaderImage').style.backgroundPosition=(-cXpos)+'px 0';
+
+      		cPreloaderTimeout=setTimeout('continueAnimation()', SECONDS_BETWEEN_FRAMES*1000);
+      	}
+
+      	function stopAnimation(){//stops animation
+      		clearTimeout(cPreloaderTimeout);
+      		cPreloaderTimeout=false;
+      	}
+
+      	function imageLoader(s, fun)//Pre-loads the sprites image
+      	{
+      		clearTimeout(cImageTimeout);
+      		cImageTimeout=0;
+      		genImage = new Image();
+      		genImage.onload=function (){cImageTimeout=setTimeout(fun, 0)};
+      		genImage.onerror=new Function('alert(\'Could not load the image\')');
+      		genImage.src=s;
+      	}
+
+      	//The following code starts the animation
+      	new imageLoader(cImageSrc, 'startAnimation()');
+      </script>
     </div>
     <script src="/bundle.js"></script>
   </body>

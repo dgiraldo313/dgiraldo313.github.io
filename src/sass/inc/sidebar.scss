@@ -29,11 +29,12 @@
           padding-left: 5px;
         }
         &.second{
-          @include animation(slide-in-left .2s .5s forwards);
+          @include animation(slide-in-left .2s .4s forwards);
           padding-left: 25px;
         }
         &.third{
-          left: 0px;
+          // left: 0px;
+          @include animation(slide-in-left .2s .6s forwards);
           padding-left: 45px;
         }
         &::before{
@@ -50,8 +51,8 @@
       .files{
         position: relative;
         overflow: hidden;
-        height: 0px;
-        @include animation(open-menu .5s 1s forwards);
+        // height: 0px;
+
         div{
           cursor: pointer;
         }

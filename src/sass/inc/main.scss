@@ -11,6 +11,11 @@
   border-bottom: 0px;
   padding: 40px;
   overflow: scroll;
+  // opacity: 0;
+  & > div{
+    opacity: 0;
+    @include animation(fadeIn .4s .2s forwards);
+  }
   p{
     font-weight: 400;
     font-size: 1.1em;

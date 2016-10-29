@@ -29,12 +29,12 @@ class Project extends Component {
   getLinks() {
     let availableLinks = "";
     let websiteLink = this.props.project.links.website ?
-                        <a href={ this.props.project.links.website }>
+                        <a href={ this.props.project.links.website } target="_blank">
                           <i className="fa fa-globe website" aria-hidden="true"></i>
                         </a> :
                       " ";
     let githubLink = this.props.project.links.github ?
-                      <a href= { this.props.project.links.github }>
+                      <a href= { this.props.project.links.github } target="_blank">
                       <i className="fa fa-github github" aria-hidden="true"></i>
                       </a>
                       :

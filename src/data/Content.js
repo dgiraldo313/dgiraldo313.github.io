@@ -22,7 +22,7 @@ const Content = {
       'Currently Reading The Alchemist(Spanish Version)',
       'Currently Watching Game of Thrones',
     ],
-    description: 'Graece regione suscipiantur in pro. Ne errem latine labores vix, falli vidisse deserunt in pri. Id his numquam nusquam, nec zril volumus commune no, voluptua recteque pro at. Ut viderer vocibus eum, blandit scriptorem usu te, erat elitr persequeris qui ad. Te eum agam timeam facilisi. Te nostrud alienum qui, epicuri disputando comprehensam vix an. Eos ei sint stet nulla, usu ea nibh antiopam posidonium.',
+    description: 'My name is Daniel Giraldo, but people call me Danny G. I’m a Frontend developer who is eager to break into the industry. I consider myself a creator and that is why I’m very excited to have the opportunity join a team that’s going to challenge me everyday and help me bring my skills to the next level. Apart from Frontend Development, I also have a huge passion for the game of soccer. Since my days as a competitive athlete are over, I recently decided to integrate this passion I have for soccer into my lifestyle and as a result I started coaching U10 team. I’m loving it!',
     techStack: {
       advanced: [
         'js',
@@ -144,7 +144,7 @@ const Content = {
           website: 'https://cranfordsoccer.com/',
           github: 0,
         },
-        description: 'Worked closely with a soccer club to build a blog like website to help them keep the parents informed. The goal was to move away from emailing and instead have all information available in one location. Worked on theme and plugin development to provide a better user experience.',
+        description: 'Worked closely with a soccer club to build a blog like website to help them keep parents informed. The goal was to move away from emailing and instead have all information available in one location. Worked on theme and plugin development to provide a better user experience.',
         techStack: [
           'wordpress',
           'php',

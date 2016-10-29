@@ -9,11 +9,12 @@
     max-width: 940px;
     margin: auto;
     .form-container{
-      width: 420px;
+      width: 100%;
       form{
         display: block;
         width: 100%;
         font-size: 1.2em;
+        margin-top: 20px;
         .tag-content{
           color: lighten(#e15258, 10%);
         }
@@ -22,16 +23,18 @@
           margin-bottom: 10px;
         }
         .second-level{
-          padding-left: 50px;
+          padding-left: 40px;
           margin-bottom: 20px;
         }
         .third-level{
           padding-left: 25px;
+          width: 300px;
         }
         input,
         textarea{
           background-color: $dark-main-content-background;
-          border: 2px #94c873 solid;
+          border: none;
+          border-bottom: 2px #94c873 solid;
           width: 100%;
           color: $dark-main-color-3;
           line-height: 25px;

@@ -1,3 +1,6 @@
+body{
+  background-color: $dark-background;
+}
 #app{
   &.dark{
     background: $dark-background;
@@ -97,10 +100,10 @@
         .header{
           .fun-facts{
 
-            opacity: .8;
+            // opacity: .8;
             .title{
               color: $dark-main-color-2-light;
-              text-decoration: underline;
+              font-weight: bold;
               padding-right: 5px;
             }
             .dynamic-content{
