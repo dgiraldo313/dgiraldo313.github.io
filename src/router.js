@@ -2,7 +2,7 @@
 import React from 'react';
 
 // import react router modules
-import { Router, Route, IndexRedirect, browserHistory } from 'react-router';
+import { Router, Route, hashHistory } from 'react-router';
 
 // import components for the different pages
 import App from './components/App';
@@ -14,12 +14,10 @@ import Contact from './components/pages/Contact';
 // import content
 import Content from './data/Content';
 
-console.dir(Content);
-
 //Routes
 const routes = (
-  <Router history={ browserHistory }>
-    <Route component={ App }>
+  <Router history={ hashHistory }>
+    <Route  component={ App }>
       <Route path="/" component={ Home } content={ Content.home }/>
       <Route path="about" component={ About } content={ Content.about } />
       <Route path="work" component={ Work } content={ Content.work } />
