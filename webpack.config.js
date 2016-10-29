@@ -19,8 +19,13 @@ module.exports = {
       },
     ],
     plugins: [
-        new webpack.optimize.UglifyJsPlugin(),
-        new webpack.optimize.OccurrenceOrderPlugin(),
+        new webpack.optimize.UglifyJsPlugin({
+          compress: true,
+          beautify: true,
+          sourceMap: true,
+
+        }),
+        new webpack.optimize.OccurrenceOrderPlugin(true),
         new webpack.optimize.DedupePlugin(),
     ],
   },
