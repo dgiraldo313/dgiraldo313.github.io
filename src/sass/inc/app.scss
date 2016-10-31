@@ -46,7 +46,6 @@ html,body{
         i{
           position: relative;
           text-align: center;
-          color: $dark-sidebar-text-color;
           line-height: inherit;
           @include opacity(.5);
           &:hover{
@@ -94,6 +93,65 @@ html,body{
       .right-container{
         width: 70%!important;
         @include animation(none);
+      }
+    }
+    // switch button to chnage between themes
+    #switch{
+      position: fixed;
+      right: .5em;
+      bottom: 8vh;
+
+      button{
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        &:active,
+        &:focus {
+          outline: none;
+        }
+        &:hover{
+          .tool-tip{
+            visibility: visible;
+          }
+        }
+        .tool-tip{
+          visibility: hidden;
+          position: absolute;
+          z-index: 100;
+          width: 200px;
+          left: -210px;
+          bottom: 0px;
+          border-radius: 5px;
+          &:before{
+            content: '';
+            display: block;
+            width: 0;
+            height: 0;
+            position: absolute;
+            border-top: 8px solid transparent;
+            border-right: 8px solid transparent;
+            border-bottom: 8px solid transparent;
+            border-left: 8px solid;
+            right: -16px;
+            top: 40%;
+          }
+          span{
+            font-size: 1.2em;
+            font-weight: bold;
+            text-transform: uppercase;
+            &.dark{
+
+            }
+          }
+        }
+        i{
+          @include prefix(opacity, .5);
+          font-size: 2em;
+          transition: opacity .2s ease-out;
+          &:hover{
+            @include prefix(opacity, 1);
+          }
+        }
       }
     }
 

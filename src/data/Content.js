@@ -1,6 +1,6 @@
 const Content = {
   home: {
-    AvatarURL: './src/images/Avatar.png',
+    AvatarURL: './src/images/Avatar2.png',
     greetings: [
       'Hey There!',
       'Hello!',
@@ -19,7 +19,7 @@ const Content = {
       'Love to Travel',
       'Love Italian Food',
       'Favorite Soccer Team - FC Barcelona',
-      'Currently Reading The Alchemist(Spanish Version)',
+      'Currently Reading The Alchemist (Spanish Version)',
       'Currently Watching Game of Thrones',
     ],
     description: 'My name is Daniel Giraldo, but people call me Danny G. I’m a Frontend developer who is eager to break into the industry. I consider myself a creator and that is why I’m very excited to have the opportunity join a team that’s going to challenge me everyday and help me bring my skills to the next level. Apart from Frontend Development, I also have a huge passion for the game of soccer. Since my days as a competitive athlete are over, I recently decided to integrate this passion I have for soccer into my lifestyle and as a result I started coaching U10 team. I’m loving it!',
@@ -85,7 +85,7 @@ const Content = {
           website: 'https://rar-webapp.herokuapp.com',
           github: 'https://github.com/dgiraldo313/RAR_WebApp',
         },
-        description: 'DrewLab is a custom web application built for the Economics Department at Drew University. The research platform a platform consists of a series of games rooted in measuring risk aversion ranging from a balloon that fills with cash to a Deal or No Deal style game. DrewLab will live on at Drew to encourage further collaboration between Drew&#8217;s Economics and Computer Science students to create new games and expand the platform for years to come. Give it a try- Use PIN 1234 to access the app!',
+        description: 'DrewLab is a custom web application built for the Economics Department at Drew University. The research platform a platform consists of a series of games rooted in measuring risk aversion ranging from a balloon that fills with cash to a Deal or No Deal style game. DrewLab will live on at Drew to encourage further collaboration between Drew’s Economics and Computer Science students to create new games and expand the platform for years to come. Give it a try- Use PIN 1234 to access the app!',
         techStack: [
           'ror',
           'html',

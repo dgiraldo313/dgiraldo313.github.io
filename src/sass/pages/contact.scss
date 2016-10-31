@@ -15,9 +15,6 @@
         width: 100%;
         font-size: 1.2em;
         margin-top: 20px;
-        .tag-content{
-          color: lighten(#e15258, 10%);
-        }
         .first-level{
           padding-left: 5px;
           margin-bottom: 10px;
@@ -32,21 +29,15 @@
         }
         input,
         textarea{
-          background-color: $dark-main-content-background;
           border: none;
           border-bottom: 2px #94c873 solid;
           width: 100%;
-          color: $dark-main-color-3;
           line-height: 25px;
           border-radius: 2px;
-          &:focus{
-            outline-color: #94c873;
-          }
         }
 
         input[type="submit"]{
           width: 150px;
-          background-color: $dark-main-color-1-light;
           float: right;
           border-radius: 5px;
           border: none;
