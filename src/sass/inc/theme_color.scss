@@ -191,6 +191,24 @@
         }
       }
     }
+    #switch{
+      button{
+        .tool-tip{
+          background-color: $dark-topbar-highlight_border;
+          &:before{
+            border-left-color: $dark-topbar-highlight_border;
+          }
+          span{
+            &.light{
+              color: $dark-main-color-3-dark;
+            }
+          }
+        }
+        i{
+          color: $dark-sidebar-text-color;
+        }
+      }
+    }
   }
 
   /*****************************************************/
@@ -383,6 +401,24 @@
         span{
           color: $dark-main-content-background;
           @include prefix(box-shadow, (inset 0px .5px 2px 0px rgba(0,0,0,.3), inset 0px -.5px 2px 0px rgba(0,0,0,.3)));
+        }
+      }
+    }
+    #switch{
+      button{
+        .tool-tip{
+          background-color: $light-topbar-highlight_border;
+          &:before{
+            border-left-color: $light-topbar-highlight_border;
+          }
+          span{
+            &.light{
+              color: $light-main-color-3-dark;
+            }
+          }
+        }
+        i{
+          color: $light-sidebar-text-color;
         }
       }
     }
