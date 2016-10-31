@@ -36,3 +36,43 @@ $dark-main-color-2-dark: darken($dark-main-color-2, 5%);
 $dark-main-color-3: #f8f0e3;//#d7dae0;
 $dark-main-color-3-light: lighten($dark-main-color-3, 5%);
 $dark-main-color-3-dark: darken($dark-main-color-3, 15%);
+
+
+/***********************
+   Light theme colors
+************************/
+//background color (includes sidebar, topbar and footer)
+$light-background: #edebe7;//#fcfbfa;////#DEDAD4;
+//main content background color
+$light-main-content-background: #f5f3f1;//#fcfcfb;////#D7D3CB;
+//boxes border color
+$light-box-border: darken($light-background, 10%);
+
+/********* Sidebar ***************/
+//text color (sidebar)
+$light-sidebar-text-color: #625A4B;
+// color text on active
+$light-sidebar-text-color_active: #28251F;
+// sidebar highligth
+$light-sidebar-highlight: #CEC9C0;//#31363F;
+/********* Topbar ***************/
+$light-topbar-text-color: #a9a090;//#CEC9C0;
+// color text on active
+$light-topbar-text-color_active: #28251F;
+// sidebar highligth
+$light-topbar-highlight: $light-main-content-background;
+$light-topbar-highlight_border: #FF5615;
+/********* Main Content ***************/
+//color 1
+$light-main-color-1: #28A3C8;//#d17c49;//#D86A2F; //#ff7260;
+// color 1 light
+$light-main-color-1-light: lighten($light-main-color-1, 10%);
+$light-main-color-1-dark: darken($light-main-color-1, 5%);
+//color 2
+$light-main-color-2: #BF8130;//#00a9ea;//#5bafef;//#1d91e9;//#00a9ea;
+$light-main-color-2-light: lighten($light-main-color-2, 5%);
+$light-main-color-2-dark: darken($light-main-color-2, 5%);
+//color 3
+$light-main-color-3: #070F1C;//#d7dae0;
+$light-main-color-3-light: lighten($light-main-color-3, 5%);
+$light-main-color-3-dark: darken($light-main-color-3, 15%);

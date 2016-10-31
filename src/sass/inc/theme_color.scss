@@ -1,4 +1,5 @@
 #app{
+  // dark theme
   &.dark{
     background: $dark-background;
     border-color: $dark-box-border;
@@ -76,7 +77,7 @@
     }
     #main{
       background-color: $dark-main-content-background;
-      color: #f8f0e3;//#f8f9e9;
+      color: $dark-main-color-3;//#f8f9e9;
       border-color: $dark-box-border;
       h1{
         color: $dark-main-color-1;
@@ -91,6 +92,21 @@
         }
       }
       .home-container{
+        .content{
+          .avatar{
+            @include prefix(box-shadow , 0px 5px 10px $dark-background);
+          }
+          div{
+            .greeting{
+              color: $dark-main-color-3-dark;
+              text-shadow: .5px .5px $dark-main-color-3-light;
+            }
+            .tag-line{
+              color: $dark-main-color-1;
+              @include prefix(text-shadow , 1px .5px lighten($dark-main-color-1-light, 10%));
+            }
+          }
+        }
 
       }
       .about-container{
@@ -123,8 +139,29 @@
 
         }
       }
+      .contact-container{
+        .form-container{
+          form{
+            .tag-content{
+              color: lighten(#e15258, 10%);
+            }
+            input,
+            textarea{
+              background-color: $dark-main-content-background;
+              color: $dark-main-color-3;
+              &:focus{
+                outline-color: #94c873;
+              }
+            }
+            input[type="submit"]{
+              background-color: $dark-main-color-1-light;
+            }
+          }
+        }
+      }
     }
     #footer{
+      border-top-color: $dark-box-border;
       .left-side{
 
       }
@@ -139,11 +176,213 @@
         }
       }
     }
+    #social-icons{
+      a{
+        i{
+          color: $dark-sidebar-text-color;
+        }
+      }
+    }
     #skills{
       .skills-container{
         span{
           color: $dark-main-content-background;
           @include prefix(box-shadow, (inset 0px .5px 2px 0px rgba(255,255,255,.3), inset 0px -.5px 2px 0px rgba(255,255,255,.3)));
+        }
+      }
+    }
+  }
+
+  /*****************************************************/
+  // Light theme
+  &.light{
+    background: $light-background;
+    border-color: $light-box-border;
+    #sidebar{
+      color: $light-sidebar-text-color;
+      a{
+        color: $light-sidebar-text-color;
+      }
+      .nav-links{
+        .tree-level{
+          &:hover{
+            background-color: $light-sidebar-highlight;
+            color: $light-sidebar-text-color_active;
+            a{
+              color: $light-sidebar-text-color_active
+            }
+          }
+        }
+        .files{
+          .active{
+            color: $light-main-color-1-dark;
+            div{
+              background-color: $light-sidebar-highlight;
+            }
+            a{
+              color: $light-sidebar-text-color_active;
+            }
+          }
+        }
+      }
+      .email-container{
+        .email-widget{
+          i,p{
+            color: $light-sidebar-text-color;
+          }
+          &:hover{
+            i{
+              color: $light-main-color-2;
+            }
+            p{
+              color: $light-main-color-3;
+            }
+          }
+        }
+      }
+    }
+    #topbar{
+      color: $light-topbar-text-color;
+      #top-nav{
+        .nav-links{
+          .tabs{
+            a.active,
+            a:hover{
+              .tab{// box shadow
+                // -webkit-box-shadow: inset 1px 1px 1px 0px rgba(255, 255, 255, .1);
+                // -moz-box-shadow: inset 1px 1px 1px 0px rgba(255, 255, 255, .1);
+                // box-shadow: inset 1px 1px 1px 0px rgba(255, 255, 255, .1);
+                @include prefix(box-shadow , inset 1px 1px 1px 0px rgba(0, 0, 0, .1));
+                // border gradient
+                border-image: none;
+                background-color: $light-topbar-highlight;
+                border-left-color: $light-topbar-highlight_border;
+                border-top-color: $light-box-border;
+                color: $light-topbar-text-color_active;
+              }
+            }
+            .tab{
+              border-color: $light-box-border;
+              color: $light-topbar-text-color;
+
+            }
+          }
+        }
+      }
+    }
+    #main{
+      background-color: $light-main-content-background;
+      color: $light-main-color-3;//#f8f9e9;
+      border-color: $light-box-border;
+      h1{
+        color: $light-main-color-1;
+        @include prefix(text-shadow , .5px .4px darken($light-main-color-1-dark, 5%));
+        // text-shadow: .5px .4px lighten($light-main-color-1-light, 5%);
+      }
+      .content{
+        .header{
+          i{
+            color: $light-main-color-2-light;
+          }
+        }
+      }
+      .home-container{
+        .content{
+          .avatar{
+            @include prefix(box-shadow , 0px 5px 10px $dark-background);
+          }
+          div{
+            .greeting{
+              color: $light-main-color-3-light;
+              text-shadow: .5px .5px $light-main-color-3-dark;
+            }
+            .tag-line{
+              color: $light-main-color-1-dark;
+              @include prefix(text-shadow , 1px .5px darken($light-main-color-1-dark, 10%));
+            }
+          }
+        }
+
+      }
+      .about-container{
+        .header{
+          .fun-facts{
+
+            // opacity: .8;
+            .title{
+              color: $light-main-color-2-dark;
+              font-weight: bold;
+              padding-right: 5px;
+            }
+            .dynamic-content{
+              color: $light-main-color-3-dark;
+            }
+          }
+        }
+      }
+      .work-container{
+        .body{
+          .projects{
+            .project{
+              .meta-container{
+                .title{
+                  color: darken($light-main-color-1-dark, 10%);
+                }
+              }
+            }
+          }
+
+        }
+      }
+      .contact-container{
+        .form-container{
+          form{
+            .tag-content{
+              color: darken(#e15258, 10%);
+            }
+            input,
+            textarea{
+              background-color: $light-main-content-background;
+              color: $light-main-color-3;
+              &:focus{
+                outline-color: #94c873;
+              }
+            }
+            input[type="submit"]{
+              background-color: $light-main-color-1-dark;
+            }
+          }
+        }
+      }
+    }
+    #footer{
+      border-top-color: $light-box-border;
+      .left-side{
+
+      }
+      .right-side{
+        .copy-right{
+          i{
+            color: $light-main-color-1-dark;
+          }
+          p{
+            color: $light-main-color-2-dark;
+          }
+        }
+      }
+    }
+    #social-icons{
+      a{
+        i{
+          color: $light-sidebar-text-color;
+        }
+      }
+    }
+    #skills{
+      .skills-container{
+        span{
+          color: $dark-main-content-background;
+          @include prefix(box-shadow, (inset 0px .5px 2px 0px rgba(0,0,0,.3), inset 0px -.5px 2px 0px rgba(0,0,0,.3)));
         }
       }
     }

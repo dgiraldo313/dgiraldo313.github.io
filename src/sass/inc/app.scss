@@ -46,7 +46,6 @@ html,body{
         i{
           position: relative;
           text-align: center;
-          color: $dark-sidebar-text-color;
           line-height: inherit;
           @include opacity(.5);
           &:hover{
