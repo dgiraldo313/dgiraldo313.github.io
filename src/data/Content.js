@@ -8,6 +8,7 @@ const Content = {
       'How is it going?',
       'How ya doing?',
       'Hi!',
+      'Hola!',
     ],
     description: 'I’m Danny. Frontend Developer.',
   },
@@ -22,7 +23,7 @@ const Content = {
       'Currently Reading The Alchemist (Spanish Version)',
       'Currently Watching Game of Thrones',
     ],
-    description: 'My name is Daniel Giraldo, but people call me Danny G. I’m a Frontend developer who is eager to break into the industry. I consider myself a creator and that is why I’m very excited to have the opportunity join a team that’s going to challenge me everyday and help me bring my skills to the next level. Apart from Frontend Development, I also have a huge passion for the game of soccer. Since my days as a competitive athlete are over, I recently decided to integrate this passion I have for soccer into my lifestyle and as a result I started coaching U10 team. I’m loving it!',
+    description: 'My name is Daniel Giraldo, but people call me Danny G. I’m a Frontend developer who is passionate about making the internet a better place. I consider myself a creator and I’m eager to join a team that’s going to challenge me everyday and help me bring my skills to the next level. Apart from Frontend Development, I also have a huge passion for the game of soccer. Since my days as a competitive athlete are over, I recently decided to integrate this passion I have for soccer into my lifestyle and as a result I started coaching U10 team. I’m loving it!',
     techStack: {
       advanced: [
         'js',
