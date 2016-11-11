@@ -65,6 +65,20 @@ const Content = {
         ],
       },
       {
+        title: 'Jacked Up',
+        links: {
+          website: 'http://danielgiraldo.com/JackedUp/',
+          github: 'https://github.com/dgiraldo313/JackedUp',
+        },
+        description: 'Workout application that uses a deck of cards to randomly select exercises for the user to perform.',
+        techStack: [
+          'react',
+          'html',
+          'sass',
+          'js',
+        ],
+      },
+      {
         title: 'NextMatch',
         links: {
           website: 'http://www.nextmatch.site/',
@@ -106,20 +120,6 @@ const Content = {
           'html',
           'sass',
           'api',
-        ],
-      },
-      {
-        title: 'Jacked Up',
-        links: {
-          website: 'https://jackedup-test.herokuapp.com',
-          github: 'https://github.com/dgiraldo313/web_mashup',
-        },
-        description: 'Workout application that uses a deck of cards to randomly select exercises for the user to perform.(Currently rebuilding app with React.js)',
-        techStack: [
-          'ror',
-          'html',
-          'css',
-          'js',
         ],
       },
     ],
