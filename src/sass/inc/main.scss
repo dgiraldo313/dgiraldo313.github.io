@@ -10,7 +10,9 @@
   border-top: 0px;
   border-bottom: 0px;
   padding: 40px;
-  overflow: scroll;
+  // overflow: scroll;
+  overflow-x: hidden;
+  overflow-y: auto;
   // opacity: 0;
   & > div{
     opacity: 0;

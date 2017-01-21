@@ -10,7 +10,7 @@ const Content = {
       'Hi!',
       'Hola!',
     ],
-    description: 'I’m Danny. Frontend Developer.',
+    description: 'I’m Danny. Front End Developer.',
   },
   about: {
     funFacts: [
@@ -20,10 +20,10 @@ const Content = {
       'Love to Travel',
       'Love Italian Food',
       'Favorite Soccer Team - FC Barcelona',
-      'Currently Reading The Alchemist (Spanish Version)',
-      'Currently Watching Game of Thrones',
+      'Currently Reading The Art of War',
+      'Currently Watching Friends',
     ],
-    description: 'My name is Daniel Giraldo, but people call me Danny G. I’m a Frontend developer who is passionate about making the internet a better place. I consider myself a creator and I’m eager to join a team that’s going to challenge me everyday and help me bring my skills to the next level. Apart from Frontend Development, I also have a huge passion for the game of soccer. Since my days as a competitive athlete are over, I recently decided to integrate this passion I have for soccer into my lifestyle and as a result I started coaching U10 team. I’m loving it!',
+    description: 'My name is Daniel Giraldo, but people call me Danny G. I’m a Front End developer currently working at RevolutionCredit. I consider myself a creator and I’m consistently working on wide variety of projects in an effort to continue bringing my skills to the next level. Apart from Front End Development, I also have a huge passion for the game of soccer. Since my days as a competitive athlete are over, I recently decided to integrate this passion I have for soccer into my lifestyle and as a result I started coaching U10 team. I’m loving it!',
     techStack: {
       advanced: [
         'js',
@@ -50,6 +50,20 @@ const Content = {
   },
   work: {
     projects: [
+      {
+        title: 'Fantasy Life App',
+        links: {
+          website: 'http://fantasylifeapp.com/',
+          github: 'https://github.com/dgiraldo313/Fantasy_Life',
+        },
+        description: 'Designed and developed a mobile responsive landing page for Fantasy Life App. For this particular project I focused specifically on the use of transitions and the use of graphics to give a simple page life.',
+        techStack: [
+          'html',
+          'jquery',
+          'sass',
+          'js',
+        ],
+      },
       {
         title: 'Portfolio',
         links: {
