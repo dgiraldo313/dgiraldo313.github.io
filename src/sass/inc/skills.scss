@@ -36,7 +36,11 @@ $ruby: #e15258;
 $adobe-suite: #e59a13;
 $python: #f092b0;//#ffd040;
 $java: #2c9676;
-$api: #9e4d83 ;
+$api: #9e4d83;
+$redux: #7644be;
+$babel: #7644be;
+$webpack: #7197d8;
+$pwa: #24dc7f;
 
 
 #skills{
@@ -108,6 +112,18 @@ $api: #9e4d83 ;
       }
       &.api{
         background-color: $api;
+      }
+      &.redux {
+        background-color: $redux
+      }
+      &.babel {
+        background-color: $babel;
+      }
+      &.webpack {
+        background-color: $webpack;
+      }
+      &.pwa {
+        background-color: $pwa;
       }
 
       // media queries

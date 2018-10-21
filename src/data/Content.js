@@ -15,28 +15,30 @@ const Content = {
   about: {
     funFacts: [
       'Soccer Player/Aficionado',
-      'U10 Soccer Coach',
       'Huge HIYM Fan',
       'Love to Travel',
       'Love Italian Food',
       'Favorite Soccer Team - FC Barcelona',
-      'Currently Reading The Art of War',
-      'Currently Watching Friends',
+      'Currently Reading The Power of Habits',
+      'Currently Listening to Freakonomics',
+      'Currently Watching GOT',
     ],
-    description: 'My name is Daniel Giraldo, but people call me Danny G. I’m a Front End developer currently working at RevolutionCredit. I consider myself a creator and I’m consistently working on wide variety of projects in an effort to continue bringing my skills to the next level. Apart from Front End Development, I also have a huge passion for the game of soccer. Since my days as a competitive athlete are over, I recently decided to integrate this passion I have for soccer into my lifestyle and as a result I started coaching U10 team. I’m loving it!',
+    description: 'My name is Daniel Giraldo, but people call me Danny G. I’m a Front End developer currently working at RevolutionCredit. I consider myself a creator and I’m consistently working on wide variety of projects in an effort to continue bringing my skills to the next level. At the moment I\'m super excited about the future of the web and how the community is finding ways to bridge the gap between the web and native apps. I\'m currently working with React/Redux and exploring the possibilities of PWAs at large scale applications. \n\n\n Apart from Front End Development, I also have a huge passion for the game of soccer. Since my days as a competitive athlete are over, I recently decided to integrate this passion I have for soccer into my lifestyle and as a result I started coaching U10 team. I’m loving it!',
     techStack: {
       advanced: [
         'js',
         'html',
         'css',
         'sass',
+        'react',
         'jquery',
-        'wordpress',
+        'wordpress'
       ],
       intermediate: [
-        'react',
         'node',
-        'ror',
+        'redux',
+        'webpack',
+        'babel',
         'adobe suite',
       ],
       some: [
@@ -51,31 +53,20 @@ const Content = {
   work: {
     projects: [
       {
-        title: 'Fantasy Life App',
+        title: 'BeerMe',
         links: {
-          website: 'http://fantasylifeapp.com/',
-          github: 'https://github.com/dgiraldo313/Fantasy_Life',
+          website: 'http://danielgiraldo.com/BeerMe/',
+          github: 'https://github.com/dgiraldo313/BeerMe',
         },
-        description: 'Designed and developed a mobile responsive landing page for Fantasy Life App. For this particular project I focused specifically on the use of transitions and the use of graphics to give a simple page life.',
-        techStack: [
-          'html',
-          'jquery',
-          'sass',
-          'js',
-        ],
-      },
-      {
-        title: 'Portfolio',
-        links: {
-          website: 'http://danielgiraldo.com/',
-          github: 'https://github.com/dgiraldo313/dgiraldo313.github.io',
-        },
-        description: 'Website you are currently on! After exploring many personal websites online I was inspired to revamp my existing personal website into a more interactive one to give the user a better experience. When coming up with the design, I came up with the idea to replicate the design of my favorite text editor (Atom) and so, I did! Website also dynamically changes greetings, as well as fun facts in the about page.',
+        description: 'Progressive Web App to search and find your new favorite beer from BreweryDB.The focus of this project is to work with the latest web technologies out there and set up a playground to allow me to continue adapting new tech to an evolving application.',
         techStack: [
           'react',
-          'jquery',
-          'sass',
-          'html',
+          'js',
+          'css',
+          'pwa',
+          'api',
+          'webpack',
+          'babel',
         ],
       },
       {
@@ -90,6 +81,38 @@ const Content = {
           'html',
           'sass',
           'js',
+          'webpack'
+        ],
+      },
+      {
+        title: 'Fantasy Life App',
+        links: {
+          website: 'http://fantasylifeapp.com/',
+          github: 'https://github.com/dgiraldo313/Fantasy_Life',
+        },
+        description: 'Designed and developed a mobile responsive landing page for Fantasy Life App. For this particular project I focused specifically on the use of transitions and the use of graphics to give a simple page life.',
+        techStack: [
+          'html',
+          'jquery',
+          'sass',
+          'js',
+          'webpack'
+        ],
+      },
+      {
+        title: 'Portfolio',
+        links: {
+          website: 'http://danielgiraldo.com/',
+          github: 'https://github.com/dgiraldo313/dgiraldo313.github.io',
+        },
+        description: 'Website you are currently on! After exploring many personal websites online I was inspired to revamp my existing personal website into a more interactive one to give the user a better experience. When coming up with the design, I came up with the idea to replicate the design of my favorite text editor (Atom) and so, I did! Website also dynamically changes greetings, as well as fun facts in the about page.',
+        techStack: [
+          'react',
+          'jquery',
+          'js',
+          'sass',
+          'html',
+          'webpack'
         ],
       },
       {
