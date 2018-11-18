@@ -13,7 +13,7 @@ class Footer extends Component {
         <div className="right-side">
           <div className="copy-right">
             <i className="fa fa-code-fork" aria-hidden="true"></i>
-            <p>Daniel Giraldo | 2016</p>
+            <p>Daniel Giraldo | { year }</p>
           </div>
         </div>
       </div>
