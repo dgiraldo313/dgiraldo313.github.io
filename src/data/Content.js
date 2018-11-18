@@ -1,6 +1,6 @@
 const Content = {
   home: {
-    AvatarURL: './src/images/Avatar2.png',
+    AvatarURL: '/images/Avatar2.png',
     greetings: [
       'Hey There!',
       'Hello!',
