@@ -5,7 +5,6 @@ import Social from '../Containers/Social';
 class Home extends Component{
   render() {
     let content = this.props.content;
-    console.log(content);
     return (
       <div className="home-container">
         <div className="content">
