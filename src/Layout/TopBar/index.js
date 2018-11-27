@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import NavLinks from '../../Containers/NavLinks';
 
+import '../../sass/inc/topbar.scss'
+
 class Topbar extends Component {
   render() {
     return (

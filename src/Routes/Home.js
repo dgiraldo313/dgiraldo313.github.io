@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import Social from '../Containers/Social';
+import '../sass/pages/home.scss'
 
 class Home extends Component{
   render() {

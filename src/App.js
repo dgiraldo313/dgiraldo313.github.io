@@ -17,12 +17,18 @@ import ThemeSwitcher from './Components/ThemeSwitcher';
 
 import Content from "./data/Content.js"
 
+import './sass/inc/app.scss'
+import './sass/inc/main.scss'
+// TODO Try React lazy load to dynamically load theme depending on theme state
+import './sass/inc/theme_color.scss'
+
+
 class App extends Component {
   constructor(props) {
     super(props);
 
     // states to add functionality to the website
-    this.state = { theme: 'dark' };
+    this.state = { theme: 'dark' }
 
     // Bind functions
     this.refreshState = this.refreshState.bind(this)
@@ -33,7 +39,7 @@ class App extends Component {
   refreshState(state) {
     this.setState(
       {
-        theme: state.theme,
+        theme: state.theme
       }
     );
   }

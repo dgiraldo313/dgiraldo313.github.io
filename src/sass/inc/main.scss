@@ -1,3 +1,5 @@
+@import "../partials/mixins";
+
 #main{
   font-family: 'Raleway', sans-serif;
   letter-spacing: 1px;
@@ -5,30 +7,23 @@
   position: relative;
   width: 100%;
   height: 85vh;
-  // background-color: $main-content-background-dark;
   border: 1px solid;
   border-top: 0px;
   border-bottom: 0px;
   padding: 40px;
-  // overflow: scroll;
   overflow-x: hidden;
   overflow-y: auto;
-  // opacity: 0;
   & > div{
     opacity: 0;
     @include animation(fadeIn .4s .2s forwards);
   }
-  p{
+
+  p {
     font-weight: 400;
     font-size: 1.1em;
-    // line-height: 25px;
-
-  }
-  @include media-query(phone){
-    padding: 20px;
   }
 
-  .content{
+  .content {
     max-width: 840px;
     margin: auto;
 
@@ -43,6 +38,10 @@
       font-size: .9em;
 
     }
+  }
+
+  @include media-query(phone){
+    padding: 20px;
   }
 
 }

@@ -3,7 +3,10 @@ import React, { Component } from 'react';
 import TechSkills from '../Containers/Skills';
 import FunFact from '../Components/FunFact';
 
+import '../sass/pages/about.scss'
+
 class About extends Component{
+
   render() {
     let content = this.props.content;
     return (

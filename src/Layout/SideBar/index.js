@@ -3,6 +3,8 @@ import NavLinks from '../../Containers/NavLinks';
 
 import { Link } from "react-router-dom";
 
+import '../../sass/inc/sidebar.scss'
+
 class Sidebar extends Component {
   render() {
     return (

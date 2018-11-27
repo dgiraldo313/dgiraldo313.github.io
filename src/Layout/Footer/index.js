@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 
 import Social from '../../Containers/Social';
 
+import '../../sass/inc/footer.scss'
+
 class Footer extends Component {
   render() {
     const year = new Date().getFullYear()

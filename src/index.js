@@ -3,7 +3,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 // CSS
-import './sass/styles.scss';
+import './sass/partials/_normalize.scss';
 
 import App from './App';
 import registerServiceWorker from './serviceWorker';

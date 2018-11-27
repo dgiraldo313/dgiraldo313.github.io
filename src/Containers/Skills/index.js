@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import Skill from './Skill';
 
-// import '../../../sass/inc/skills.scss';
+import '../../sass/inc/skills.scss';
 
 class TechSkills extends Component {
   render() {

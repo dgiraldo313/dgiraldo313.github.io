@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 
 import Project from './Project';
 
-import '../../sass/inc/skills.scss';
-
 class Projects extends Component {
   render() {
     return (
@@ -19,7 +17,7 @@ class Projects extends Component {
     //loop through list of projects
     let projectsHTML = projects.map((project, index) => {
       let projectHTML = <Project project={ project }
-                              key= { index } />;
+                                 key= { index } />;
 
       // return each project component
       return projectHTML;

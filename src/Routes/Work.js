@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 
 import Projects from '../Containers/Projects';
 
+import '../sass/pages/work.scss'
+
 class Work extends Component {
   render() {
     let content = this.props.content;
