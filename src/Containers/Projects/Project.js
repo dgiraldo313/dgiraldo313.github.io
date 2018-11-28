@@ -1,53 +1,46 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import TechSkills from '../Skills';
 
-class Project extends Component {
-  render() {
+
+const Project = ( props ) => {
+
     return (
-      <div className="project">
-          <div className="meta-container">
-            <div className="title">
-              { this.props.project.title }
+        <div className="project">
+            <div className="meta-container">
+                <div className="title">
+                    { props.project.title }
+                </div>
+                <div className="links">
+                    <div id="social-icons">
+                        {
+                            props.project.links.website ?
+                                <a href={ props.project.links.website } target="_blank">
+                                    <i className="fa fa-globe website" aria-hidden="true"></i>
+                                </a>
+                                : null
+                        }
+
+                        {
+                            props.project.links.github ?
+                                <a href= { props.project.links.github } target="_blank">
+                                    <i className="fa fa-github github" aria-hidden="true"></i>
+                                </a>
+                                : null
+                        }
+                    </div>
+                </div>
             </div>
-            <div className="links">
-              { this.getLinks() }
+            <div className="description">
+                <p>
+                    { props.project.description }
+                </p>
             </div>
-          </div>
-          <div className="description">
-            <p>
-              { this.props.project.description }
-            </p>
-          </div>
-          <div className="tech-stack">
-            <TechSkills skills= { this.props.project.techStack } />
-          </div>
+            <div className="tech-stack">
+                <TechSkills skills= { props.project.techStack } />
+            </div>
         </div>
     );
-  }
-
-  getLinks() {
-    let availableLinks = "";
-    let websiteLink = this.props.project.links.website ?
-                        <a href={ this.props.project.links.website } target="_blank">
-                          <i className="fa fa-globe website" aria-hidden="true"></i>
-                        </a> :
-                      " ";
-    let githubLink = this.props.project.links.github ?
-                      <a href= { this.props.project.links.github } target="_blank">
-                      <i className="fa fa-github github" aria-hidden="true"></i>
-                      </a>
-                      :
-                      " ";
-
-   return (
-     <div id="social-icons">
-       {websiteLink}
-       {githubLink}
-     </div>
-   );
-  }
-
 }
 
 

@@ -2,43 +2,46 @@ import React, { Component } from 'react';
 
 class FunFact extends Component {
 
-  constructor(props) {
-    super(props);
+    constructor(props) {
+        super(props);
 
-    // console.log(this.props.funFacts);
-    this.state = {
-      funFact: this.get(),
-    };
-  }
+        this.state = {
+            funFact: this.getFunFact(),
+        };
 
-  componentDidMount() {
-    this.timerID = setInterval(
-      () => this.update(),
-      (1000 * 15)
-    );
-  }
+        // bind functions
+        this.getFunFact = this.getFunFact.bind(this)
+        this.updateState = this.updateState.bind(this)
+    }
 
-  componentWillUnmount() {
-    clearInterval(this.timerID);
-  }
+    componentDidMount() {
+        this.timerID = setInterval(
+            () => this.updateState(),
+            (1000 * 8)
+        );
+    }
 
-  update() {
-    this.setState({
-      funFact: this.get(),
-    });
-  }
+    componentWillUnmount() {
+        // Clear interval before unmounting to prevent leak
+        clearInterval( this.timerID );
+    }
 
-  get() {
-    let funFacts = this.props.funFacts;
-    let funFact = funFacts[(Math.floor(Math.random() * funFacts.length))];
-    return funFact;
-  }
+    updateState() {
+        this.setState({
+            funFact: this.getFunFact(),
+        });
+    }
 
-  render() {
-    return (
-      <span className="dynamic-content"> { this.state.funFact } </span>
-    );
-  }
+    getFunFact() {
+        const funFacts = this.props.funFacts;
+        return funFacts[(Math.floor(Math.random() * funFacts.length))];
+    }
+
+    render() {
+        return (
+            <span className="dynamic-content"> { this.state.funFact } </span>
+        );
+    }
 }
 
 export default FunFact;

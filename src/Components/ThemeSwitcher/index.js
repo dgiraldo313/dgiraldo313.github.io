@@ -1,62 +1,47 @@
 import React, { Component } from 'react';
 
 class ThemeSwitcher extends Component {
-  constructor(props) {
-    super(props);
-    this.theme = this.props.theme;
-    this.updateTheme = this.props.refresh;
+    constructor(props) {
+        super(props);
 
-  }
+        // Bind functions
+        this.switchTheme = this.switchTheme.bind(this)
 
-  switchTheme() {
-    let currTheme = this.theme;
-    let state;
-    if (currTheme === 'dark') {
-      state = {
-        theme: 'light',
-      };
-    } else {
-      state = {
-        theme: 'dark',
-      };
     }
 
-    // UPDATE CURRENT STATE OF APP TO OPPOSITE THEME
-    this.updateTheme(state);
+    switchTheme() {
 
-  }
+      const newTheme = this.props.theme === "dark" ? "light" : "dark"
 
-  render() {
-    // CREATES TOOL TIP TO TELL USERS WHICH THEME THEY WILL BE SWITCHING TO
-    let toolTip = () => {
-                    let oppositeTheme = this.theme === 'dark' ?
-                                        'light' :
-                                        'dark';
-                    let toolTip = <div className="tool-tip">
-                                  <p className="class-message">
-                                    Switch to <span className= {oppositeTheme}>
-                                                        { oppositeTheme } </span>
-                                     theme</p>
-                                </div>;
-                    return (toolTip);
-                  };
+      // UPDATE CURRENT STATE OF APP TO OPPOSITE THEME
+      this.props.refresh( {
+          theme: newTheme,
+      });
 
-    let switchButton = this.theme === 'dark' ?
-                      <button onClick ={this.switchTheme.bind(this)}>
-                        { toolTip() }
-                        <i className="fa fa-sun-o" aria-hidden="true"></i>
-                      </button>
-                      :
-                      <button onClick ={this.switchTheme.bind(this)}>
-                        { toolTip() }
-                        <i className="fa fa-moon-o" aria-hidden="true"></i>
-                      </button>;
-    return (
-      <div id="switch">
-        {switchButton}
-      </div>
-    );
-  }
+    }
+
+     render() {
+        // CREATES TOOL TIP TO TELL USERS WHICH THEME THEY WILL BE SWITCHING TO
+         const toolTip = () => {
+             const oppositeTheme = this.props.theme === 'dark' ? 'light' : 'dark';
+             return (
+                 <div className="tool-tip">
+                     <p className="class-message">
+                         Switch to <span className={oppositeTheme}> {oppositeTheme} </span>theme</p>
+                 </div>
+             )
+         }
+
+        return (
+
+            <div id="switch">
+                <button onClick ={ this.switchTheme }>
+                    { toolTip() }
+                    <i className={ `fa ${ this.props.theme ==='dark' ? "fa-sun-o" : "fa-moon-o" }`} aria-hidden="true"></i>
+                </button>
+            </div>
+        );
+    }
 
 }
 

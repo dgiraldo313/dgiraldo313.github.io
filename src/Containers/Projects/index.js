@@ -1,32 +1,18 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import Project from './Project';
 
-class Projects extends Component {
-  render() {
+
+const Projects = ( props ) => {
     return (
-      <div className="projects">
-        { this.get() }
-      </div>
+        <div className="projects">
+            {
+              props.projects.map((project, index) => (
+                  <Project project={ project } key= { index } />
+              ))
+            }
+        </div>
     );
-  }
-
-  get() {
-    let projects = this.props.projects;
-
-    //loop through list of projects
-    let projectsHTML = projects.map((project, index) => {
-      let projectHTML = <Project project={ project }
-                                 key= { index } />;
-
-      // return each project component
-      return projectHTML;
-    });
-
-    // return all the project components
-    return projectsHTML;
-  }
-
 }
 
 export default Projects;

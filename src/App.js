@@ -28,7 +28,9 @@ class App extends Component {
     super(props);
 
     // states to add functionality to the website
-    this.state = { theme: 'dark' }
+    this.state = {
+      theme: 'dark'
+    }
 
     // Bind functions
     this.refreshState = this.refreshState.bind(this)
@@ -41,12 +43,11 @@ class App extends Component {
       {
         theme: state.theme
       }
-    );
+    )
   }
 
   render() {
     return (
-
       <HashRouter>
         <div id="app" className={ this.state.theme }>
           <div className="left-container">
@@ -55,21 +56,20 @@ class App extends Component {
           <div className="right-container">
             <Topbar />
             <div id="main">
-              <Route exact path="/" render={ (props) => <Home content={ Content.home } />  } />
-              <Route path="/about" render={ (props) => <About content={ Content.about } />  } />
-              <Route path="/work" render={ (props) => <Work content={ Content.work } />  } />
-              <Route path="/contact" render={ (props) => <Contact content={ Content.contact } />  }/>
+              <Route exact path="/" render={ () => <Home content={ Content.home } />  } />
+              <Route path="/about" render={ () => <About content={ Content.about } />  } />
+              <Route path="/work" render={ () => <Work content={ Content.work } />  } />
+              <Route path="/contact" render={ () => <Contact content={ Content.contact } />  }/>
             </div>
           </div>
           <ThemeSwitcher key={ this.state.theme }
-                        theme={ this.state.theme }
-                        refresh={ (state) => this.refreshState(state) } />
+                         theme={ this.state.theme }
+                         refresh={ (state) => this.refreshState(state) } />
           <Footer />
         </div>
       </HashRouter>
     );
   }
-
 }
 
 export default App;
