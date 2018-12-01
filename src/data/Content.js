@@ -23,7 +23,7 @@ const Content = {
             'Currently Listening to Freakonomics',
             'Currently Watching GOT',
         ],
-        description: 'My name is Daniel Giraldo, but people call me Danny G. I’m a Front End developer currently working at RevolutionCredit. I consider myself a creator and I’m consistently working on wide variety of projects in an effort to continue bringing my skills to the next level. At the moment I\'m super excited about the future of the web and how the community is finding ways to bridge the gap between the web and native apps. I\'m currently working with React/Redux and exploring the possibilities of PWAs at large scale applications. \n\n\n Apart from Front End Development, I also have a huge passion for the game of soccer. Since my days as a competitive athlete are over, I recently decided to integrate this passion I have for soccer into my lifestyle and as a result I started coaching U10 team. I’m loving it!',
+        description: 'My name is Daniel Giraldo. I’m a Front End developer currently working at RevolutionCredit. I consider myself a creator and I’m consistently working on wide variety of projects in an effort to continue bringing my skills to the next level. At the moment I\'m super excited about the future of the web and how the community is finding ways to bridge the gap between the web and native apps. I\'m currently working with React/Redux and exploring the possibilities of PWAs at large scale applications.',
         techStack: {
             advanced: [
                 'react',
