@@ -27,18 +27,40 @@ class App extends Component {
   constructor(props) {
     super(props);
 
-    // states to add functionality to the website
     this.state = {
       theme: 'dark'
     }
 
     // Bind functions
-    this.refreshState = this.refreshState.bind(this)
+    this.loadTheme = this.loadTheme.bind(this)
+    this.updateTheme = this.updateTheme.bind(this)
 
   }
 
-  // HELPER FUNCTION TO ALLOW COMPONENTS TO UPDATE STATE OF APP
-  refreshState(state) {
+  componentDidMount() {
+    this.loadTheme()
+  }
+
+  /*
+  * Set up theme when available in local storage
+  *
+  * */
+  loadTheme() {
+    // Read from local storage when supported
+	  if ( typeof Storage !== "undefined" ) {
+	    const theme = localStorage.getItem("DG_THEME")
+
+      if ( theme ) {
+        this.setState( { theme } )
+      }
+    }
+  }
+
+	/*
+	* HELPER FUNCTION TO ALLOW COMPONENTS TO UPDATE STATE OF APP
+	*
+	* */
+	updateTheme(state) {
     this.setState(
       {
         theme: state.theme
@@ -49,7 +71,7 @@ class App extends Component {
   render() {
     return (
       <HashRouter>
-        <div id="app" className={ this.state.theme }>
+        <div id="app" className={ this.state.theme.toLowerCase() }>
           <div className="left-container">
             <Sidebar />
           </div>
@@ -57,14 +79,14 @@ class App extends Component {
             <Topbar />
             <div id="main">
               <Route exact path="/" render={ () => <Home content={ Content.home } />  } />
-              <Route path="/about" render={ () => <About content={ Content.about } />  } />
-              <Route path="/work" render={ () => <Work content={ Content.work } />  } />
-              <Route path="/contact" render={ () => <Contact content={ Content.contact } />  }/>
+              <Route exact path="/about" render={ () => <About content={ Content.about } />  } />
+              <Route exact path="/work" render={ () => <Work content={ Content.work } />  } />
+              <Route exact path="/contact" render={ () => <Contact content={ Content.contact } />  }/>
             </div>
           </div>
           <ThemeSwitcher key={ this.state.theme }
                          theme={ this.state.theme }
-                         refresh={ (state) => this.refreshState(state) } />
+                         update={ (state) => this.updateTheme(state) } />
           <Footer />
         </div>
       </HashRouter>

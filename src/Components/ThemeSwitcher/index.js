@@ -6,6 +6,7 @@ class ThemeSwitcher extends Component {
 
         // Bind functions
         this.switchTheme = this.switchTheme.bind(this)
+        this.updateThemeInStorage = this.updateThemeInStorage.bind(this)
 
     }
 
@@ -14,10 +15,17 @@ class ThemeSwitcher extends Component {
       const newTheme = this.props.theme === "dark" ? "light" : "dark"
 
       // UPDATE CURRENT STATE OF APP TO OPPOSITE THEME
-      this.props.refresh( {
+      this.props.update( {
           theme: newTheme,
       });
 
+      this.updateThemeInStorage( newTheme )
+    }
+
+    updateThemeInStorage( theme ) {
+	    if ( typeof Storage !== "undefined" ) {
+		    localStorage.setItem("DG_THEME", theme )
+	    }
     }
 
      render() {
