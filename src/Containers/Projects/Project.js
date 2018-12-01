@@ -15,7 +15,7 @@ const Project = ( props ) => {
                     <div id="social-icons">
                         {
                             props.project.links.website ?
-                                <a href={ props.project.links.website } target="_blank">
+                                <a href={ props.project.links.website } target="_blank" rel="noopener noreferrer">
                                     <i className="fa fa-globe website" aria-hidden="true"></i>
                                 </a>
                                 : null
@@ -23,7 +23,7 @@ const Project = ( props ) => {
 
                         {
                             props.project.links.github ?
-                                <a href= { props.project.links.github } target="_blank">
+                                <a href= { props.project.links.github } target="_blank" rel="noopener noreferrer">
                                     <i className="fa fa-github github" aria-hidden="true"></i>
                                 </a>
                                 : null

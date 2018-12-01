@@ -10,13 +10,13 @@ const Sidebar = ( props ) => {
             <div id="side-nav">
                 <div className="nav-links">
                     <div className="tree-level first fa fa-chevron-down">
-                        <div className="folder fa fa-folder-open">
-                            <span>Portfolio</span>
+                        <div className="folder fa fa-book">
+                            <span>Danny_Giraldo</span>
                         </div>
                     </div>
                     <div className="tree-level second fa fa-chevron-down">
                         <div className="folder fa fa-folder-open">
-                            <span>profile_modules</span>
+                            <span>portfolio</span>
                         </div>
                     </div>
 

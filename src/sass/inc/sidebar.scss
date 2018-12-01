@@ -19,7 +19,8 @@
         padding-bottom: 5px;
         span{
           display: inline-block;
-          font-size: 1.5em;
+          font-size: 1.2em;
+          line-height: 1em;
           font-weight: bold;
           font-family: 'Signika Negative', sans-serif;
           margin: 0px;
@@ -34,14 +35,19 @@
         }
         &.third{
           @include animation(slide-in-left .2s .6s forwards);
-          padding-left: 45px;
+          padding-left: 50px;
         }
         &::before{
-          margin-right: 2px;
+          margin-right: 5px;
+          font-size: 1.2em;
+          line-height: 1em;
+          vertical-align: top;
         }
         .folder{
           &::before{
-            margin-right: 2px;
+            margin-right: 5px;
+            font-size: 1.5em;
+            line-height: 1em;
           }
         }
 
