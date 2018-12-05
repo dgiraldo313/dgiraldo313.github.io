@@ -48,19 +48,16 @@ $pwa: #24dc7f;
     position: relative;
     display: block;
     width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+    box-sizing: border-box;
     span{
       // opacity: .8;
       font-weight: bold;
       text-transform: uppercase;
       display: inline-block;
-      line-height: 15px;
+      line-height: 20px;
       text-align: center;
-      &:nth-child(1){
-        border-radius: 5px 0px 0px 5px;
-      }
-      &:last-child{
-        border-radius: 0px 5px 5px 0px;
-      }
       //colors
       &.js{
         background-color: $js;
@@ -127,23 +124,6 @@ $pwa: #24dc7f;
       }
 
       // media queries
-      @include media-query(phone){
-        // span{
-          &:nth-child(1){
-            border-radius: 5px 0px 0px 0px;
-          }
-          &:nth-child(2){
-            border-radius: 0px 5px 0px 0px;
-          }
-          &:last-child {
-            border-radius: 0px 0px 5px 0px;
-          }
-          &:nth-last-child(2){
-            border-radius: 0px 0px 0px 5px;
-          }
-        // }
-      }
-
       @include media-query(tablet-medium){
         font-size: .8em;
       }
@@ -153,27 +133,7 @@ $pwa: #24dc7f;
 
 
     }
-    // @include media-query(phone){
-    //   span{
-    //     &:nth-child(1){
-    //       border-radius: 5px 0px 0px 0px;
-    //     }
-    //     &:nth-child(2){
-    //       border-radius: 0px 5px 0px 0px;
-    //     }
-    //     &:last-child {
-    //       border-radius: 0px 0px 5px 0px;
-    //     }
-    //     &:nth-last-child(2){
-    //       border-radius: 0px 0px 0px 5px;
-    //     }
-    //   }
-    // }
-    // @include media-query(phone-tablet){
-    //   span{
-    //
-    //   }
-    // }
+
     //grids
     @include skillGrid(1);
     @include skillGrid(2);

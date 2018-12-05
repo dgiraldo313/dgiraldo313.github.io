@@ -212,6 +212,16 @@
         }
       }
     }
+    .activity-tracker {
+      background-color: $dark-main-color-2-dark;
+      border-color: $dark-box-border;
+      color: $dark-topbar-text-color_active;
+      .dismiss {
+        border-color: $dark-box-border;
+        color: $dark-sidebar-text-color_active;
+      }
+
+    }
   }
 
   /*****************************************************/
@@ -424,6 +434,16 @@
           color: $light-sidebar-text-color;
         }
       }
+    }
+    .activity-tracker {
+      background-color: $light-main-color-2-dark;
+      border-color: $light-box-border;
+      color: darken( $light-background, 2% );
+      .dismiss {
+        border-color: $light-box-border;
+        color: darken( $light-background, 2% );
+      }
+
     }
   }
 }

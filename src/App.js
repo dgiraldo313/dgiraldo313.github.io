@@ -14,6 +14,7 @@ import Footer from './Layout/Footer';
 
 //import widgets
 import ThemeSwitcher from './Components/ThemeSwitcher';
+import ActivityTracker from "./Components/ActivityTracker";
 
 import Content from "./data/Content.js"
 
@@ -21,6 +22,7 @@ import './sass/inc/app.scss'
 import './sass/inc/main.scss'
 // TODO Try React lazy load to dynamically load theme depending on theme state
 import './sass/inc/theme_color.scss'
+
 
 
 class App extends Component {
@@ -78,6 +80,7 @@ class App extends Component {
           <div className="right-container">
             <Topbar />
             <div id="main">
+              <ActivityTracker/>
               <Route exact path="/" render={ () => <Home content={ Content.home } />  } />
               <Route exact path="/about" render={ () => <About content={ Content.about } />  } />
               <Route exact path="/work" render={ () => <Work content={ Content.work } />  } />

@@ -1,0 +1,122 @@
+@import "../../sass/partials/mixins";
+@import "../../sass/partials/colors";
+
+
+.activity-tracker {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 0px;
+    right: -100%;
+    width: 100%;
+    //max-height: 60px;
+    transition: right .5s 2s linear;
+    z-index: 9999;
+    box-sizing: border-box;
+
+    &.in {
+        right: 0px;
+    }
+
+    &.out {
+        transition-delay: .2s;
+    }
+
+    a {
+        text-decoration: none;
+        color: inherit;
+        width: 100%;
+    }
+
+    .summary-container {
+        display: flex;
+        box-sizing: border-box;
+        width: 100%;
+
+        .graphic {
+            display: flex;
+            align-items: center;
+            font-size: 38px;
+            padding: 5px;
+            transition: text-shadow .2s 0s ease-in;
+        }
+
+        .summary {
+            padding: 5px 10px;
+            width: 100%;
+            h2 {
+                margin: 0 0 5px;
+                font-size: 15px;
+                letter-spacing: .3px;
+                font-weight: bold;
+                text-transform: capitalize;
+            }
+
+            p {
+                margin: 0;
+                font-size: 12px;
+                line-height: 18px;
+            }
+
+            .time-tracker {
+                display: block;
+                width: 100%;
+                text-align: left;
+                font-size: 10px;
+                line-height: 12px;
+                font-style: italic;
+                padding-top: 5px;
+            }
+        }
+    }
+
+    .dismiss {
+        margin-left: auto;
+        cursor: pointer;
+        font-size: 12px;
+        font-weight: bold;
+        text-transform: uppercase;
+        border: none;
+        border-left: 1px solid #2c9676;
+        color: #fff;
+        background-color: transparent;
+        outline: none;
+    }
+
+    @media screen and ( min-width: 420px ) {
+        background-color: blue;
+        width: 400px;
+        top: 10px;
+        border-radius: 5px;
+        max-height: none;
+        border: 1px solid;
+        &.in {
+            right: 10px;
+        }
+
+        .dismiss {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+        .summary-container {
+            .graphic,
+            .summary {
+                padding: 10px;
+            }
+            .graphic {
+                padding-right: 5px;
+            }
+
+            .summary {
+                padding-left: 5px;
+            }
+        }
+
+        &:hover {
+            .graphic {
+                text-shadow: 0px 0px 15px rgba( 255, 255, 255, .5);
+            }
+        }
+    }
+}
