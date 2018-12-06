@@ -84,9 +84,10 @@
     }
 
     @media screen and ( min-width: 420px ) {
+        position: fixed;
         background-color: blue;
         width: 400px;
-        top: 10px;
+        top: calc( 45px + 10px);
         border-radius: 5px;
         max-height: none;
         border: 1px solid;
