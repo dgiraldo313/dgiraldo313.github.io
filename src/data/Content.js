@@ -15,11 +15,9 @@ const Content = {
     about: {
         funFacts: [
             'Soccer Player/Aficionado',
-            'Huge HIYM Fan',
             'Love to Travel',
             'Love Italian Food',
             'Favorite Soccer Team - FC Barcelona',
-            'Currently Reading The Power of Habits',
             'Currently Listening to Freakonomics',
             'Currently Watching GOT',
         ],
@@ -105,20 +103,21 @@ const Content = {
                     website: 'http://danielgiraldo.com/',
                     github: 'https://github.com/dgiraldo313/dgiraldo313.github.io',
                 },
-                description: 'Website you are currently on! After exploring many personal websites online I was inspired to revamp my existing personal website into a more interactive one to give the user a better experience. When coming up with the design, I came up with the idea to replicate the design of my favorite text editor (Atom) and so, I did! Website also dynamically changes greetings, as well as fun facts in the about page.',
+                description: 'Website you are currently on! After exploring many personal websites online I was inspired to revamp my existing personal website into a more interactive one to give the user a better experience. When coming up with the design, I came up with the idea to replicate the design of my favorite text editor (Atom) and so, I did! Website also dynamically changes greetings, as well as fun facts in the about page. \n\nUPDATE: Recently integrated a widget that allows me to update my activity in real time through text SMS. I used the Twilio API + a small Node/Express/MongoDB in order to store the data and display it on to the widget that you might have seen at the top of the screen.',
                 techStack: [
                     'react',
                     'jquery',
                     'js',
                     'sass',
                     'html',
-                    'webpack'
+                    'webpack',
+                    'node',
+                    'api'
                 ],
             },
             {
                 title: 'NextMatch',
                 links: {
-                    website: 'http://www.nextmatch.site/',
                     github: 'https://github.com/dgiraldo313/nextMatch',
                 },
                 description: 'NextMatch is a web app that lets you find out when/who your favorite soccer team is playing next or show you live scores if the match is currently being played. It even lets you set up a reminder, so that you can get a text before the match starts.',
@@ -134,10 +133,9 @@ const Content = {
             {
                 title: 'DrewLab',
                 links: {
-                    website: 'https://rar-webapp.herokuapp.com',
                     github: 'https://github.com/dgiraldo313/RAR_WebApp',
                 },
-                description: 'DrewLab is a custom web application built for the Economics Department at Drew University. The research platform a platform consists of a series of games rooted in measuring risk aversion ranging from a balloon that fills with cash to a Deal or No Deal style game. DrewLab will live on at Drew to encourage further collaboration between Drew’s Economics and Computer Science students to create new games and expand the platform for years to come. Give it a try- Use PIN 1234 to access the app!',
+                description: 'DrewLab is a custom web application built for the Economics Department at Drew University. The research platform a platform consists of a series of games rooted in measuring risk aversion ranging from a balloon that fills with cash to a Deal or No Deal style game. DrewLab will live on at Drew to encourage further collaboration between Drew’s Economics and Computer Science students to create new games and expand the platform for years to come.',
                 techStack: [
                     'ror',
                     'html',
@@ -148,7 +146,6 @@ const Content = {
             {
                 title: 'Web Mashup',
                 links: {
-                    website: 0,
                     github: 'https://github.com/dgiraldo313/web_mashup',
                 },
                 description: 'Web Mashup is an API that integrates into the Drew University Library search results page to provide users with links to PDFs from outside resources.',
