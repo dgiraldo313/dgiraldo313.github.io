@@ -6,7 +6,8 @@ import ReactDOM from 'react-dom';
 import './sass/partials/_normalize.scss';
 
 import App from './App';
-import registerServiceWorker from './serviceWorker';
 
 ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();
+
+// Need to disable service worker, because it's preventing access to other apps
+// registerServiceWorker();
