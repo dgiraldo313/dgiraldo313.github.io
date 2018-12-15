@@ -13,7 +13,8 @@
   border-bottom: 0px;
   padding: 80px 40px 40px 40px;
   overflow-x: hidden;
-  overflow-y: auto;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
   & > div{
     opacity: 0;
     @include animation(fadeIn .4s .2s forwards);
